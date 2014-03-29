@@ -1,0 +1,1 @@
+{  "name": "Holy Mantle",  "level": 1,  "slots": [    "armor_upgrade"  ],  "types": [    "armor",    "divine"  ],  "text": "You gain a 3 HP shell with +3 spiritual armor and -3 elemental armor.\n\nYou gain the Reforge ability:\nCost: 3 AP.\nRestore the shell to 3 HP."}

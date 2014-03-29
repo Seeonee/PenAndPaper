@@ -1,0 +1,1 @@
+{  "name": "Arcane Barrage",  "level": 2,  "slots": [    "ability_upgrade"  ],  "types": [    "arcane",    "spell",    "signature"  ],  "text": "Before you perform the upgraded ability, you may spend 1 signature. If you do, temporarily reduce the upgraded ability's AP cost by 1.\nPrerequisite: The upgraded ability must be a spell with a mana cost.\n"}

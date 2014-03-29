@@ -1,0 +1,141 @@
+/* Formatting for the tiles themselves. */
+.tile {
+  position: relative;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #c1c1c1;
+  padding: 5px;
+  text-align: center;
+  cursor: default;
+  color: #000;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tile.upgrade {
+  margin: 30px auto;
+  width: 130px;
+  height: 130px;
+}
+.tile .name {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  font-size: 16px;
+  color: #000;
+}
+
+.tile .equipped-name {
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 0px;
+  width: 100%;
+  font-family: "Scada", sans-serif;
+  font-size: 18px;
+  color: #c8012e;
+}
+
+.tile .bottomRowContainer {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.tile .level {
+  float: left;
+  color: #6e6e6e;
+  margin: 0 2px 0 0;
+  font-size: 16px;
+}
+.tile .levelBox {
+  float: left;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #6e6e6e;
+  margin: 2px;
+}
+.tile .levelBox.default {
+  border-color: #c1c1c1;
+  background-image: url("../images/default_inactive.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tile .levelBox.locked {
+  border-color: #c1c1c1;
+  background-image: url("../images/locked_unlock.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tile .levelBox.unlocked {
+  background-image: url("../images/locked_relock.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tile .levelBox.free {
+  background-image: url("../images/free.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tile .levelBox.unavailable {
+  background-image: url("../images/unavailable.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Various parts of a tile which change while equipped. */
+.tile.activated {
+  border-color: #c8012e;
+}
+.tile.activated  .name {
+  color: #c1c1c1;
+}
+.tile.activated .equipped-name {
+  display: inline;
+}
+.tile.activated .level {
+  color: #c1c1c1;
+}
+.tile.activated .levelBox.activated {
+  border-color: #c8012e;
+  background-color: #c8012e;
+}
+.tile.activated .levelBox.default.activated {
+  border-color: #c1c1c1;
+  background-color: transparent;
+  background-image: url("../images/default_active.png");
+}
+
+/* Highlight clickable elements. */
+.tile.clickable {
+  border-color: #000;
+}
+.tile.activated.clickable {
+  border-color: #c8012e;
+}
+.clickable:hover {
+  border-color: #c8012e;
+}
+.clickable.levelBox:hover {
+  border-width: 3px;
+  width: 16px;
+  height: 16px;
+}
+.tile .levelBox.locked.clickable:hover {
+  border-width: 2px;
+  width: 18px;
+  height: 18px;
+  background-image: url("../images/locked_unlock_hover.png");
+}
+.tile.activated:hover {
+  background-color: #e1e1e1;
+}
+.tile.clickable.activated .levelBox.activated.clickable:hover {
+  background-color: #c1c1c1;
+  border-width: 3px;
+  width: 16px;
+  height: 16px;
+}
+

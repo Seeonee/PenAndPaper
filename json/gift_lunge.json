@@ -1,0 +1,1 @@
+{  "name": "Lunge",  "level": 1,  "slots": [    "gift"  ],  "types": [    "martial",    "weapon"  ],  "text": "When you perform a melee weapon attack with a sword, you may move 1 space before making the attack. If the attack succeeds, you may move 1 space after the attack. These movements ignore enemy guards.\n"}

@@ -1,0 +1,1 @@
+{  "name": "Arbalest",  "level": 2,  "slots": [    "two_handed_ranged_weapon"  ],  "types": [    "martial",    "weapon",    "crossbow"  ],  "text": "Attack dice: 6d6 (piercing 3).\nArbalests fire with immense force, piercing the first 3 points of natural armor on a target. However, they must be reloaded before they can be fired again.\n"}

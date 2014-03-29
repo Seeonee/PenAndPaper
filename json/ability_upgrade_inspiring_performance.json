@@ -1,0 +1,1 @@
+{  "name": "Inspiring Performance",  "level": 1,  "slots": [    "ability_upgrade"  ],  "types": [    "signature"  ],  "text": "When you perform the upgraded ability, one character who can see you gains 3 hoarded AP.\nPrerequisite: The upgraded ability must be a signature ability.\n"}

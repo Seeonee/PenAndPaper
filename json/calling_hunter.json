@@ -1,0 +1,1 @@
+{  "name": "Hunter",  "level": 1,  "slots": [    "calling"  ],  "types": [    "martial"  ],  "text": "You deal an additional +1 damage to your sworn enemies.\n\nYou gain the Hunt ability:\nCost: 0 AP.\nThe nearest enemy character becomes your sworn enemy.\nRestriction: You may not use this ability if you already have any sworn enemies.\n"}

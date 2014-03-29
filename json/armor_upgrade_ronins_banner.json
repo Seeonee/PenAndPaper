@@ -1,0 +1,1 @@
+{  "name": "Ronin's Banner",  "level": 1,  "slots": [    "armor_upgrade"  ],  "types": [    "martial"  ],  "text": "You have no banner.\n\nYou gain the Soul for Sale ability:\nCost: 0 AP.\nYou gain 1 wound and gain a banner with a value of your choice. If you have a previous banner, dismiss it.\nThe new banner lasts until the battle ends, or until another effect dismisses it.\n"}

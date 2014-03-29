@@ -1,0 +1,141 @@
+/* Background images for various tile types. */
+.background.ability {
+  background-image: url("../images/ability_inactive.png");
+}
+.background.ability.activated {
+  background-image: url("../images/ability_active.png");
+}
+
+.background.ability.upgrade {
+  background-image: url("../images/ability_upgrade_inactive.png");
+}
+.background.ability.upgrade.activated {
+  background-image: url("../images/ability_upgrade_active.png");
+}
+
+.background.armor {
+  background-image: url("../images/armor_inactive.png");
+}
+.background.armor.activated {
+  background-image: url("../images/armor_active.png");
+}
+
+.background.armor.upgrade {
+  background-image: url("../images/armor_upgrade_inactive.png");
+}
+.background.armor.upgrade.activated {
+  background-image: url("../images/armor_upgrade_active.png");
+}
+
+.background.calling {
+  background-image: url("../images/calling_inactive.png");
+}
+.background.calling.activated {
+  background-image: url("../images/calling_active.png");
+}
+
+.background.curse {
+  background-image: url("../images/curse_inactive.png");
+}
+.background.curse.activated {
+  background-image: url("../images/curse_active.png");
+}
+
+.background.gift {
+  background-image: url("../images/gift_inactive.png");
+}
+.background.gift.activated {
+  background-image: url("../images/gift_active.png");
+}
+
+.background.heritage {
+  background-image: url("../images/heritage_inactive.png");
+}
+.background.heritage.activated {
+  background-image: url("../images/heritage_active.png");
+}
+
+.background.main_hand_shield {
+  background-image: url("../images/main_hand_shield_inactive.png");
+}
+.background.main_hand_shield.activated {
+  background-image: url("../images/main_hand_shield_active.png");
+}
+
+.background.main_hand_shield.upgrade {
+  background-image: url("../images/main_hand_shield_upgrade_inactive.png");
+}
+.background.main_hand_shield.upgrade.activated {
+  background-image: url("../images/main_hand_shield_upgrade_active.png");
+}
+
+.background.main_hand_weapon {
+  background-image: url("../images/main_hand_weapon_inactive.png");
+}
+.background.main_hand_weapon.activated {
+  background-image: url("../images/main_hand_weapon_active.png");
+}
+
+.background.main_hand_weapon.upgrade {
+  background-image: url("../images/main_hand_weapon_upgrade_inactive.png");
+}
+.background.main_hand_weapon.upgrade.activated {
+  background-image: url("../images/main_hand_weapon_upgrade_active.png");
+}
+
+.background.offhand_shield {
+  background-image: url("../images/offhand_shield_inactive.png");
+}
+.background.offhand_shield.activated {
+  background-image: url("../images/offhand_shield_active.png");
+}
+
+.background.offhand_shield.upgrade {
+  background-image: url("../images/offhand_shield_upgrade_inactive.png");
+}
+.background.offhand_shield.upgrade.activated {
+  background-image: url("../images/offhand_shield_upgrade_active.png");
+}
+
+.background.offhand_weapon {
+  background-image: url("../images/offhand_weapon_inactive.png");
+}
+.background.offhand_weapon.activated {
+  background-image: url("../images/offhand_weapon_active.png");
+}
+
+.background.offhand_weapon.upgrade {
+  background-image: url("../images/offhand_weapon_upgrade_inactive.png");
+}
+.background.offhand_weapon.upgrade.activated {
+  background-image: url("../images/offhand_weapon_upgrade_active.png");
+}
+
+.background.two_handed_ranged_weapon {
+  background-image: url("../images/two_handed_ranged_weapon_inactive.png");
+}
+.background.two_handed_ranged_weapon.activated {
+  background-image: url("../images/two_handed_ranged_weapon_active.png");
+}
+
+.background.two_handed_ranged_weapon.upgrade {
+  background-image: url("../images/two_handed_ranged_weapon_upgrade_inactive.png");
+}
+.background.two_handed_ranged_weapon.upgrade.activated {
+  background-image: url("../images/two_handed_ranged_weapon_upgrade_active.png");
+}
+
+.background.two_handed_weapon {
+  background-image: url("../images/two_handed_weapon_inactive.png");
+}
+.background.two_handed_weapon.activated {
+  background-image: url("../images/two_handed_weapon_active.png");
+}
+
+.background.two_handed_weapon.upgrade {
+  background-image: url("../images/two_handed_weapon_upgrade_inactive.png");
+}
+.background.two_handed_weapon.upgrade.activated {
+  background-image: url("../images/two_handed_weapon_upgrade_active.png");
+}
+

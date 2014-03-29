@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="generator"
+        content="Character Builder" />
+        <meta charset="utf-8" />
+        <title>Character Builder</title>
+        <link rel="icon" type="image/ico" href="images/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.14.1/build/cssreset/cssreset-min.css" />
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Scada:400italic,400' rel='stylesheet' type='text/css'>
+        <!-- end fonts -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/load.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/tiles.css" />
+        <link rel="stylesheet" type="text/css" href="css/tile_icons.css" />
+        <link rel="stylesheet" type="text/css" href="css/tile_layout.css" />
+        <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="js/urlvars.js"></script>
+        <script type="text/javascript" src="js/doc.js"></script>
+        <script type="text/javascript" src="js/load.js"></script>
+    </head>
+    <body>
+        <!-- Header for navigation and stat summaries. -->
+        <header>
+            <div class="column">
+                <div class="name">
+                    <a href="./load.html">SKILLS</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="filter column">
+            <form name="query" action="./load.html" method="get" id="filter_form">
+                Name: <input type="text" name="query_name" />
+                Text: <input type="text" name="query_text" />
+                Type: <input type="text" name="query_type" />
+                Slot: <input type="text" name="query_slot" />
+                Level: <input type="text" name="query_level" />
+                <input type="submit" value="Filter" />
+            </form>
+        </div>
+        
+        <div class="container column">
+            <!-- Documents get inserted here, once loaded. -->
+            
+<!-- Sample document class.
+            <div class="document">
+                <div class="icon activated background ability">
+                    <div class="name">NAME</div>
+                </div>
+                <div class="info">
+                    <div class="level">
+                        <span class="tag">LEVEL:</span>
+                        <span class="value">1</span>
+                    </div>
+                    <div class="slot">
+                        <span class="tag">SLOT:</span>
+                        <span class="value">Heritage</span>
+                    </div>
+                    <div class="type">
+                        <span class="tag">TYPE:</span>
+                        <span class="value">Arcane</span>
+                    </div>
+                    <div class="text">
+                        <span class="tag">TEXT:</span>
+                        <div class="value"><h1><strong>
+                            Test 1<br />What about now, huh?
+                            Test 1<br />What about now, huh?
+                            Test 1<br />What about now, huh?
+                            Test 1<br />What about now, huh?
+                            Test 1<br />What about now, huh?
+                        </h1></strong></div>
+                    </div>
+                </div>
+            </div>
+-->
+        
+        </div>
+        <div class="add column">
+            <div class="add_more">
+                Add...
+            </div>
+        </div>
+    </body>
+</html>

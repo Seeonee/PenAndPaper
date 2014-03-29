@@ -1,0 +1,1 @@
+{  "name": "Crystal Mantle",  "level": 1,  "slots": [    "armor_upgrade"  ],  "types": [    "armor",    "elemental"  ],  "text": "You gain a 3 HP shell with +3 elemental armor and -3 natural armor.\n\nYou gain the Reforge ability:\nCost: 3 AP.\nRestore the shell to 3 HP.\n"}

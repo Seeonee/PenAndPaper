@@ -1,0 +1,1 @@
+{  "name": "Mana Strike",  "level": 1,  "slots": [    "ability_upgrade"  ],  "types": [    "arcane",    "weapon",    "spell"  ],  "text": "After you perform the upgraded ability, increase the damage of your next weapon attack by twice the mana cost of the upgraded ability.\nPrerequisite: The upgraded ability must be a spell with a mana cost.\n"}

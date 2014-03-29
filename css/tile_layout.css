@@ -1,0 +1,237 @@
+/* Tile layout, as necessary. */
+/* Heritage and calling. */
+.section.heritage_and_calling {
+  height: 230px;
+}
+.section.heritage_and_calling .heading, .section.heritage_and_calling .tile {
+  position: absolute;
+}
+
+.section.heritage_and_calling .heading.heritage {
+  top: 46%;
+  left: 16%;
+  margin-top: -15px;
+  margin-left: -135px;
+}
+.section.heritage_and_calling .tile.heritage {
+  top: 30px;
+  left: 40%;
+  margin-left: -84px;
+}
+.section.heritage_and_calling .tile.calling {
+  top: 30px;
+  left: 60%;
+  margin-left: -84px;
+}
+.section.heritage_and_calling .heading.calling {
+  top: 46%;
+  left: 84%;
+  margin-top: -15px;
+  margin-left: -135px;
+}
+
+
+/* Weapons. */
+.section.weapons {
+  background-image: url("../images/path_weapons.png");
+  background-repeat: no-repeat;
+  background-position: 50% 56%;
+  height: 1020px;
+}
+.section.weapons .tile {
+  position: absolute;
+}
+
+.section.weapons .tile.two_handed_weapon {
+  top: 250px;
+  left: 50%;
+  margin-left: -84px;
+}
+.section.weapons .tile.two_handed_weapon.upgrade {
+  top: 60px;
+  left: 50%;
+  margin-left: -74px;
+}
+
+.section.weapons .tile.main_hand_weapon {
+  top: 320px;
+  left: 29%;
+  margin-left: -84px;
+}
+.section.weapons .tile.main_hand_weapon.upgrade {
+  top: 235px;
+  left: 11%;
+  margin-left: -74px;
+}
+.section.weapons .tile.main_hand_shield {
+  top: 570px;
+  left: 29%;
+  margin-left: -84px;
+}
+.section.weapons .tile.main_hand_shield.upgrade {
+  top: 655px;
+  left: 11%;
+  margin-left: -74px;
+}
+
+.section.weapons .tile.offhand_weapon {
+  top: 320px;
+  left: 71%;
+  margin-left: -84px;
+}
+.section.weapons .tile.offhand_weapon.upgrade {
+  top: 235px;
+  left: 89%;
+  margin-left: -74px;
+}
+.section.weapons .tile.offhand_shield {
+  top: 570px;
+  left: 71%;
+  margin-left: -84px;
+}
+.section.weapons .tile.offhand_shield.upgrade {
+  top: 655px;
+  left: 89%;
+  margin-left: -74px;
+}
+
+.section.weapons .tile.two_handed_ranged_weapon {
+  top: 640px;
+  left: 50%;
+  margin-left: -84px;
+}
+.section.weapons .tile.two_handed_ranged_weapon.upgrade {
+  top: 830px;
+  left: 50%;
+  margin-left: -74px;
+}
+
+/* Armor. */
+.section.armor {
+  height: 270px;
+  background-image: url("../images/path_x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 53%;
+  background-size: 300px 8px;
+}
+.section.armor .tile {
+  position: absolute;
+}
+
+.section.armor .tile.armor {
+  top: 70px;
+  left: 50%;
+  margin-left: -84px;
+}
+.section.armor .tile.armor.upgrade[data-instance="1"] {
+  top: 70px;
+  left: 28%;
+  margin-left: -74px;
+}
+.section.armor .tile.armor.upgrade[data-instance="2"] {
+  top: 70px;
+  left: 72%;
+  margin-left: -74px;
+}
+
+/* Gifts. */
+.section.gifts {
+  height: 270px;
+}
+.section.gifts .tile {
+  position: absolute;
+}
+
+.section.gifts .tile.gift[data-instance="1"] {
+  top: 70px;
+  left: 15%;
+  margin-left: -84px;
+}
+.section.gifts .tile.gift[data-instance="2"] {
+  top: 70px;
+  left: 38%;
+  margin-left: -84px;
+}
+.section.gifts .tile.gift[data-instance="3"] {
+  top: 70px;
+  left: 62%;
+  margin-left: -84px;
+}
+.section.gifts .tile.gift[data-instance="4"] {
+  top: 70px;
+  left: 85%;
+  margin-left: -84px;
+}
+
+/* Curses. */
+.section.curses {
+  height: 270px;
+}
+.section.curses .tile {
+  position: absolute;
+}
+
+.section.curses .tile.curse[data-instance="1"] {
+  top: 70px;
+  left: 38%;
+  margin-left: -84px;
+}
+.section.curses .tile.curse[data-instance="2"] {
+  top: 70px;
+  left: 62%;
+  margin-left: -84px;
+}
+
+/* Abilities. */
+.section.abilities {
+  height: 680px;
+  background-image: url("../images/path_abilities.png");
+  background-repeat: no-repeat;
+  background-position: 50% 45%;
+}
+.section.abilities .tile {
+  position: absolute;
+}
+
+.section.abilities .tile.ability[data-instance="1"] {
+  top: 130px;
+  left: 38%;
+  margin-left: -84px;
+}
+.section.abilities .tile.ability.upgrade[data-instance="1"] {
+  top: 30px;
+  left: 18%;
+  margin-left: -74px;
+}
+.section.abilities .tile.ability[data-instance="2"] {
+  top: 130px;
+  left: 62%;
+  margin-left: -84px;
+}
+.section.abilities .tile.ability.upgrade[data-instance="2"] {
+  top: 30px;
+  left: 82%;
+  margin-left: -74px;
+}
+
+.section.abilities .tile.ability[data-instance="3"] {
+  top: 370px;
+  left: 38%;
+  margin-left: -84px;
+}
+.section.abilities .tile.ability.upgrade[data-instance="3"] {
+  top: 470px;
+  left: 18%;
+  margin-left: -74px;
+}
+.section.abilities .tile.ability[data-instance="4"] {
+  top: 370px;
+  left: 62%;
+  margin-left: -84px;
+}
+.section.abilities .tile.ability.upgrade[data-instance="4"] {
+  top: 470px;
+  left: 82%;
+  margin-left: -74px;
+}
+

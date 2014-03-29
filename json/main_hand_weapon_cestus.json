@@ -1,0 +1,1 @@
+{  "name": "Cestus",  "level": 3,  "slots": [    "main_hand_weapon",    "offhand_weapon"  ],  "types": [    "martial",    "weapon",    "gauntlet"  ],  "text": "Attack dice: 7d6.\nCestuses can deliver devastating strikes when used with finesse. A character who spends hoarded dice while making a cestus attack adds three times the usual number of bonus dice to that attack.\n"}

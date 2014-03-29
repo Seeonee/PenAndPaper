@@ -1,0 +1,120 @@
+
+/* Padding to account for the nav bar. */
+.filter {
+  padding-top: 70px; /* Keep this in sync with the header's height! */
+  padding-bottom: 10px;
+  text-align: center;
+}
+.add {
+  padding-bottom: 60px;
+}
+
+/* Let's turn off link styling. */
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Search terms. */
+.filter input[name="query_level"] {
+  /* Level column doesn't need to be so wide. */
+  width: 20px;
+}
+
+/* Styling for the document container. */
+.document {
+  position: relative;
+  font-family: "Verdana";
+  font-weight: normal;
+  overflow: auto;
+  border: 2px solid #fff;
+  margin-top: 10px;
+}
+.document:hover {
+  border-color: #c8012e;
+}
+.document .icon {
+  position: relative;
+  float: left;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 9px;
+  cursor: default;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.document .name {
+  position: absolute;
+  top: 35%;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #c8012e;
+}
+.document .info {
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+.document .tag {
+  display: inline-block;
+  width: 60px;
+  font-family: "Scada", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  padding: 0 5px 5px 0;
+}
+.document .value {
+  vertical-align: text-top;
+  display: inline-block;
+}
+.document .text {
+  padding-top: 10px;
+  width: 730px;
+}
+.document .button {
+  position: absolute;
+  right: 10px;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #e1e1e1;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.document .button:hover {
+  border-color: #c8012e;
+}
+.document .button.save {
+  top: 10px;
+  background-image: url('../images/save.png');
+}
+.document .button.save:hover {
+  background-image: url('../images/save_active.png');
+}
+.document .button.download {
+  display: none;
+}
+.document .button.copy {
+  top: 34px;
+  background-image: url('../images/copy.png');
+}
+.document .button.copy:hover {
+  background-image: url('../images/copy_active.png');
+}
+.add_more {
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px 0 20px 0;
+  cursor: pointer;
+  font-family: 'Verdana';
+  font-size: 24px;
+  text-align: center;
+}
+.add_more:hover {
+  background-color: #e1e1e1;
+  color: #c8012e;
+}

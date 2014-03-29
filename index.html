@@ -1,0 +1,485 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="generator"
+        content="Character Builder" />
+        <meta charset="utf-8" />
+        <title>Character Builder</title>
+        <link rel="icon" type="image/ico" href="images/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.14.1/build/cssreset/cssreset-min.css" />
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Scada:400italic,400' rel='stylesheet' type='text/css'>
+        <!-- end fonts -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/tiles.css" />
+        <link rel="stylesheet" type="text/css" href="css/tile_icons.css" />
+        <link rel="stylesheet" type="text/css" href="css/tile_layout.css" />
+<!--
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
+-->
+    </head>
+    <body>
+        <!-- Header for navigation and stat summaries. -->
+        <header>
+            <div class="column">
+                <div class="name" contenteditable="true">
+                    CHARACTER NAME
+                </div>
+                <ul class="navigation">
+                    <li class="skill_points">
+                        <span class="tag">Points:</span>
+                        <span class="value">8</span>
+                    </li>
+                    <li class="keys">
+                        <span class="tag">Keys:</span>
+                        <span class="value">1</span>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- The piece de resistance! Skill tree, that is. -->
+        <div class="skilltree column">
+            <!-- Heritage and calling. -->
+            <div class="section heritage_and_calling">
+                <div class="heading heritage">
+                    CHOOSE YOUR HERITAGE
+                </div>
+                <div class="tile background heritage clickable">
+                    <div class="name">
+                        <div>HERITAGE</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                    </div>
+                </div>
+
+                <div class="heading calling">
+                    CHOOSE YOUR CALLING
+                </div>
+                <div class="tile background calling clickable">
+                    <div class="name">
+                        <div>CALLING</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weapons. -->
+            <div class="section weapons">
+                <div class="heading">
+                    EQUIP YOUR WEAPONS
+                </div>
+
+                <div class="tile background two_handed_weapon clickable">
+                    <div class="name">
+                        <div>MELEE WEAPON</div>
+                        <div>(TWO HANDED)</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox default" data-level="1"></div>
+                        <div class="levelBox clickable" data-level="2"></div>
+                        <div class="levelBox" data-level="3"></div>
+                    </div>
+                </div>
+                <div class="tile background two_handed_weapon upgrade">
+                    <div class="name">
+                        <div>UPGRADE WEAPON</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                
+                <div class="tile background main_hand_weapon clickable">
+                    <div class="name">
+                        <div>MELEE WEAPON</div>
+                        <div>(MAIN HAND)</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox" data-level="2"></div>
+                        <div class="levelBox" data-level="3"></div>
+                    </div>
+                </div>
+                <div class="tile background main_hand_weapon upgrade">
+                    <div class="name">
+                        <div>UPGRADE WEAPON</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                
+                <div class="tile background offhand_weapon clickable">
+                    <div class="name">
+                        <div>MELEE WEAPON</div>
+                        <div>(OFFHAND)</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox" data-level="2"></div>
+                        <div class="levelBox" data-level="3"></div>
+                    </div>
+                </div>
+                <div class="tile background offhand_weapon upgrade">
+                    <div class="name">
+                        <div>UPGRADE WEAPON</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                
+                <div class="tile background main_hand_shield clickable">
+                    <div class="name">
+                        <div>SHIELD</div>
+                        <div>(MAIN HAND)</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                    </div>
+                </div>
+                <div class="tile background main_hand_shield upgrade">
+                    <div class="name">
+                        <div>UPGRADE SHIELD</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                
+                <div class="tile background offhand_shield clickable">
+                    <div class="name">
+                        <div>SHIELD</div>
+                        <div>(OFFHAND)</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                    </div>
+                </div>
+                <div class="tile background offhand_shield upgrade">
+                    <div class="name">
+                        <div>UPGRADE SHIELD</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                
+                <div class="tile background two_handed_ranged_weapon clickable">
+                    <div class="name">
+                        <div>RANGED WEAPON</div>
+                        <div>(TWO HANDED)</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox" data-level="2"></div>
+                    </div>
+                </div>
+                <div class="tile background two_handed_ranged_weapon upgrade">
+                    <div class="name">
+                        <div>UPGRADE WEAPON</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Armor. -->
+            <div class="section armor">
+                <div class="heading">
+                    EQUIP YOUR ARMOR
+                </div>
+                <div class="tile background armor clickable">
+                    <div class="name">
+                        <div>ARMOR</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox" data-level="2"></div>
+                        <div class="levelBox" data-level="3"></div>
+                    </div>
+                </div>
+                <div class="tile background armor upgrade" data-instance="1">
+                    <div class="name">
+                        <div>UPGRADE ARMOR</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                <div class="tile background armor upgrade" data-instance="2">
+                    <div class="name">
+                        <div>UPGRADE ARMOR</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gifts. -->
+            <div class="section gifts">
+                <div class="heading">
+                    CHOOSE YOUR GIFTS
+                </div>
+                <div class="tile background gift clickable" data-instance="1">
+                    <div class="name">
+                        <div>GIFT</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox" data-level="2"></div>
+                    </div>
+                </div>
+                <div class="tile background gift clickable" data-instance="2">
+                    <div class="name">
+                        <div>GIFT</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox" data-level="2"></div>
+                    </div>
+                </div>
+                <div class="tile background gift clickable" data-instance="3">
+                    <div class="name">
+                        <div>GIFT</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                <div class="tile background gift clickable" data-instance="4">
+                    <div class="name">
+                        <div>GIFT</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curses. -->
+            <div class="section curses">
+                <div class="heading">
+                    CHOOSE YOUR CURSES
+                </div>
+                <div class="tile background curse clickable" data-instance="1">
+                    <div class="name">
+                        <div>CURSE</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                    </div>
+                </div>
+                <div class="tile background curse" data-instance="2">
+                    <div class="name">
+                        <div>CURSE</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable locked" data-level="1"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Abilities. -->
+            <div class="section abilities">
+                <div class="heading">
+                    CHOOSE YOUR ABILITIES
+                </div>
+                
+                <div class="tile background ability clickable" data-instance="1">
+                    <div class="name">
+                        <div>ABILITY</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox" data-level="2"></div>
+                        <div class="levelBox" data-level="3"></div>
+                    </div>
+                </div>
+                <div class="tile background ability upgrade" data-instance="1">
+                    <div class="name">
+                        <div>UPGRADE ABILITY</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                
+                <div class="tile background ability clickable" data-instance="2">
+                    <div class="name">
+                        <div>ABILITY</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox" data-level="2"></div>
+                        <div class="levelBox clickable locked" data-level="3"></div>
+                    </div>
+                </div>
+                <div class="tile background ability upgrade" data-instance="2">
+                    <div class="name">
+                        <div>UPGRADE ABILITY</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                
+                <div class="tile background ability clickable" data-instance="3">
+                    <div class="name">
+                        <div>ABILITY</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                        <div class="levelBox locked" data-level="3"></div>
+                    </div>
+                </div>
+                <div class="tile background ability upgrade" data-instance="3">
+                    <div class="name">
+                        <div>UPGRADE ABILITY</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox clickable locked" data-level="2"></div>
+                    </div>
+                </div>
+                
+                <div class="tile background ability" data-instance="4">
+                    <div class="name">
+                        <div>ABILITY</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox clickable locked" data-level="1"></div>
+                        <div class="levelBox locked" data-level="2"></div>
+                        <div class="levelBox locked" data-level="3"></div>
+                    </div>
+                </div>
+                <div class="tile background ability upgrade" data-instance="4">
+                    <div class="name">
+                        <div>UPGRADE ABILITY</div>
+                    </div>
+                    <div class="equipped-name">
+                    </div>
+                    <div class="bottomRowContainer">
+                        <div class="level">LEVEL</div>
+                        <div class="levelBox" data-level="1"></div>
+                        <div class="levelBox locked" data-level="2"></div>
+                    </div>
+                </div>
+            </div>
+            
+        <!-- This next div ends the skill tree. -->
+        </div>
+    </body>
+</html>

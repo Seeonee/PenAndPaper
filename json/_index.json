@@ -1,0 +1,402 @@
+{
+    "ability_battle_cry.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial"
+    }, 
+    "ability_blink.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,spell"
+    }, 
+    "ability_blood_haze.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial"
+    }, 
+    "ability_blood_rage.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial"
+    }, 
+    "ability_bloodcurdling_shout.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial,signature"
+    }, 
+    "ability_bullseye_throw.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial,weapon,dagger,sword"
+    }, 
+    "ability_guardian_ghostblade.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,martial,spell,weapon,dagger,sword"
+    }, 
+    "ability_magic_missile.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell"
+    }, 
+    "ability_motivational_beating.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial,signature"
+    }, 
+    "ability_opportunity_knocks.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial"
+    }, 
+    "ability_rallying_cry.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial,signature"
+    }, 
+    "ability_upgrade_arcane_barrage.json": {
+        "level": 2, 
+        "slots": "ability_upgrade", 
+        "types": "arcane,spell,signature"
+    }, 
+    "ability_upgrade_dedication_to_the_death_god.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "signature,divine,death"
+    }, 
+    "ability_upgrade_dedication_to_the_fae_god.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "signature,divine,fae"
+    }, 
+    "ability_upgrade_dedication_to_the_sea_god.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "signature,divine,sea"
+    }, 
+    "ability_upgrade_dedication_to_the_storm_god.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "signature,divine,storm"
+    }, 
+    "ability_upgrade_dedication_to_the_sun_god.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "signature,divine,sun"
+    }, 
+    "ability_upgrade_dedication_to_the_war_god.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "signature,divine,war"
+    }, 
+    "ability_upgrade_dedication_to_the_wise_god.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "signature,divine,wisdom"
+    }, 
+    "ability_upgrade_ethereal_wings.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "arcane,spell,speed"
+    }, 
+    "ability_upgrade_inspiring_performance.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "signature"
+    }, 
+    "ability_upgrade_mana_strike.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "arcane,weapon,spell"
+    }, 
+    "armor_chainmail_armor.json": {
+        "level": 2, 
+        "slots": "armor", 
+        "types": "armor,mail"
+    }, 
+    "armor_flourishing_cape.json": {
+        "level": 1, 
+        "slots": "armor", 
+        "types": "martial,armor,dagger,sword"
+    }, 
+    "armor_leather_armor.json": {
+        "level": 1, 
+        "slots": "armor", 
+        "types": "armor,leather"
+    }, 
+    "armor_platemail_armor.json": {
+        "level": 3, 
+        "slots": "armor", 
+        "types": "armor,plate"
+    }, 
+    "armor_upgrade_crystal_mantle.json": {
+        "level": 1, 
+        "slots": "armor_upgrade", 
+        "types": "armor,elemental"
+    }, 
+    "armor_upgrade_flexible_construction.json": {
+        "level": 2, 
+        "slots": "armor_upgrade", 
+        "types": "armor,speed"
+    }, 
+    "armor_upgrade_hermetic_shell.json": {
+        "level": 2, 
+        "slots": "armor_upgrade", 
+        "types": "armor,arcane"
+    }, 
+    "armor_upgrade_holy_mantle.json": {
+        "level": 1, 
+        "slots": "armor_upgrade", 
+        "types": "armor,divine"
+    }, 
+    "armor_upgrade_lightweight_construction.json": {
+        "level": 1, 
+        "slots": "armor_upgrade", 
+        "types": "armor,speed"
+    }, 
+    "armor_upgrade_ronins_banner.json": {
+        "level": 1, 
+        "slots": "armor_upgrade", 
+        "types": "martial"
+    }, 
+    "armor_upgrade_shadow_mantle.json": {
+        "level": 1, 
+        "slots": "armor_upgrade", 
+        "types": "armor,natural"
+    }, 
+    "calling_avenger.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "divine"
+    }, 
+    "calling_berserker.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "martial"
+    }, 
+    "calling_champion.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "martial"
+    }, 
+    "calling_hunter.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "martial"
+    }, 
+    "calling_musketeer.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "martial"
+    }, 
+    "calling_spellsword.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "arcane,martial"
+    }, 
+    "curse_flammable.json": {
+        "level": 1, 
+        "slots": "curse", 
+        "types": "arcane"
+    }, 
+    "curse_fresh_scars.json": {
+        "level": 1, 
+        "slots": "curse", 
+        "types": "martial"
+    }, 
+    "curse_hunted.json": {
+        "level": 1, 
+        "slots": "curse", 
+        "types": "martial"
+    }, 
+    "gift_brutal_weapon.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "martial,two_handed_weapon"
+    }, 
+    "gift_cleave.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "martial,weapon,axe"
+    }, 
+    "gift_conservation_of_mana.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "arcane"
+    }, 
+    "gift_duelist.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "martial,weapon,sword,dagger"
+    }, 
+    "gift_lunge.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "martial,weapon"
+    }, 
+    "gift_mana_battery.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "arcane"
+    }, 
+    "gift_sweep_the_feet.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "martial,weapon,offhand"
+    }, 
+    "heritage_dwarfs_stamina.json": {
+        "level": 1, 
+        "slots": "heritage", 
+        "types": ""
+    }, 
+    "heritage_elfs_grace.json": {
+        "level": 1, 
+        "slots": "heritage", 
+        "types": ""
+    }, 
+    "heritage_giants_anger.json": {
+        "level": 1, 
+        "slots": "heritage", 
+        "types": ""
+    }, 
+    "heritage_hobs_mischief.json": {
+        "level": 1, 
+        "slots": "heritage", 
+        "types": ""
+    }, 
+    "heritage_humans_versatility.json": {
+        "level": 1, 
+        "slots": "heritage", 
+        "types": ""
+    }, 
+    "heritage_ifrits_glamour.json": {
+        "level": 1, 
+        "slots": "heritage", 
+        "types": ""
+    }, 
+    "heritage_merrows_curiosity.json": {
+        "level": 1, 
+        "slots": "heritage", 
+        "types": ""
+    }, 
+    "heritage_wights_vengeance.json": {
+        "level": 1, 
+        "slots": "heritage", 
+        "types": ""
+    }, 
+    "main_hand_weapon_axe.json": {
+        "level": 2, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,axe"
+    }, 
+    "main_hand_weapon_battle_axe.json": {
+        "level": 3, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,axe"
+    }, 
+    "main_hand_weapon_brass_knuckle.json": {
+        "level": 1, 
+        "slots": "main_hand_weapon,offhand_weapon", 
+        "types": "martial,weapon,gauntlet"
+    }, 
+    "main_hand_weapon_caber.json": {
+        "level": 3, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,club"
+    }, 
+    "main_hand_weapon_cestus.json": {
+        "level": 3, 
+        "slots": "main_hand_weapon,offhand_weapon", 
+        "types": "martial,weapon,gauntlet"
+    }, 
+    "main_hand_weapon_club.json": {
+        "level": 1, 
+        "slots": "main_hand_weapon,offhand_weapon", 
+        "types": "martial,weapon,club"
+    }, 
+    "main_hand_weapon_cudgel.json": {
+        "level": 2, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,club"
+    }, 
+    "main_hand_weapon_dagger.json": {
+        "level": 1, 
+        "slots": "main_hand_weapon,offhand_weapon", 
+        "types": "martial,weapon,dagger"
+    }, 
+    "main_hand_weapon_gauntlet.json": {
+        "level": 2, 
+        "slots": "main_hand_weapon,offhand_weapon", 
+        "types": "martial,weapon,gauntlet"
+    }, 
+    "main_hand_weapon_grand_sword.json": {
+        "level": 3, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,sword"
+    }, 
+    "main_hand_weapon_hammer.json": {
+        "level": 1, 
+        "slots": "main_hand_weapon,offhand_weapon", 
+        "types": "martial,weapon,mace"
+    }, 
+    "main_hand_weapon_hatchet.json": {
+        "level": 1, 
+        "slots": "main_hand_weapon,offhand_weapon", 
+        "types": "martial,weapon,axe"
+    }, 
+    "main_hand_weapon_lance.json": {
+        "level": 3, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,spear"
+    }, 
+    "main_hand_weapon_mace.json": {
+        "level": 2, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,mace"
+    }, 
+    "main_hand_weapon_morningstar.json": {
+        "level": 3, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,mace"
+    }, 
+    "main_hand_weapon_spear.json": {
+        "level": 2, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,spear"
+    }, 
+    "main_hand_weapon_staff.json": {
+        "level": 2, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "arcane,weapon,wand"
+    }, 
+    "main_hand_weapon_sword.json": {
+        "level": 2, 
+        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "types": "martial,weapon,sword"
+    }, 
+    "main_hand_weapon_wand.json": {
+        "level": 1, 
+        "slots": "main_hand_weapon,offhand_weapon", 
+        "types": "arcane,weapon,wand"
+    }, 
+    "two_handed_ranged_weapon_arbalest.json": {
+        "level": 2, 
+        "slots": "two_handed_ranged_weapon", 
+        "types": "martial,weapon,crossbow"
+    }, 
+    "two_handed_ranged_weapon_crossbow.json": {
+        "level": 1, 
+        "slots": "two_handed_ranged_weapon", 
+        "types": "martial,weapon,crossbow"
+    }, 
+    "two_handed_ranged_weapon_longbow.json": {
+        "level": 2, 
+        "slots": "two_handed_ranged_weapon", 
+        "types": "martial,weapon,bow"
+    }, 
+    "two_handed_ranged_weapon_shortbow.json": {
+        "level": 1, 
+        "slots": "two_handed_ranged_weapon", 
+        "types": "martial,weapon,bow"
+    }
+}

@@ -1,0 +1,1 @@
+{  "name": "Brutal Weapon",  "level": 1,  "slots": [    "gift"  ],  "types": [    "martial",    "two_handed_weapon"  ],  "text": "When you fail a two handed weapon attack against a single target, roll a die. On a value of 5 or higher, deal that much natural damage to the target."}

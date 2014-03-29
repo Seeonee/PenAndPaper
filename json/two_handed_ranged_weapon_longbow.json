@@ -1,0 +1,1 @@
+{  "name": "Longbow",  "level": 2,  "slots": [    "two_handed_ranged_weapon"  ],  "types": [    "martial",    "weapon",    "bow"  ],  "text": "Attack dice: 6d6.\nLongbows&nbsp;get more accurate once the range a to target is dialed in. After successfully attacking a target with a longbow, you gain +1 bonus dice to the next longbow attack you make against that target.\n"}

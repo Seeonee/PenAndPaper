@@ -1,0 +1,1 @@
+{  "name": "Lance",  "level": 3,  "slots": [    "main_hand_weapon",    "offhand_weapon",    "two_handed_weapon"  ],  "types": [    "martial",    "weapon",    "spear"  ],  "text": "Attack dice: 7d6.\nLances can be used at twice the range of most melee weapons. Doing so incurs a penalty of -1 dice to the attack roll.\n"}

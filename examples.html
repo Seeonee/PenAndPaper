@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="generator"
+        content="Character Builder" />
+        <meta charset="utf-8" />
+        <title>Character Builder</title>
+        <link rel="icon" type="image/ico" href="images/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.14.1/build/cssreset/cssreset-min.css" />
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Scada:400italic,400' rel='stylesheet' type='text/css'>
+        <!-- end fonts -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
+    </head>
+    <body>
+        <!-- Demo for unequipped tiles. -->
+        <div class="row">
+            <div class="tile two_handed_weapon clickable">
+                <div class="name">
+                    <div>MELEE WEAPON</div>
+                    <div>(TWO HANDED)</div>
+                </div>
+                <div class="equipped-name">
+                </div>
+                <div class="bottomRowContainer">
+                    <div class="level">LEVEL</div>
+                    <div class="levelBox default" data-level="1"></div>
+                    <div class="levelBox clickable" data-level="2"></div>
+                    <div class="levelBox" data-level="3"></div>
+                </div>
+            </div>
+            <div class="tile two_handed_ranged_weapon clickable">
+                <div class="name">
+                    <div>RANGED WEAPON</div>
+                    <div>(TWO HANDED)</div>
+                </div>
+                <div class="equipped-name">
+                </div>
+                <div class="bottomRowContainer">
+                    <div class="level">LEVEL</div>
+                    <div class="levelBox clickable" data-level="1"></div>
+                    <div class="levelBox" data-level="2"></div>
+                </div>
+            </div>
+            <div class="tile two_handed_ranged_weapon upgrade">
+                <div class="name">
+                    <div>UPGRADE</div>
+                    <div>WEAPON</div>
+                </div>
+                <div class="equipped-name">
+                    <div>FIRE ARROWS</div>
+                </div>
+                <div class="bottomRowContainer">
+                    <div class="level">LEVEL</div>
+                    <div class="levelBox" data-level="1"></div>
+                    <div class="levelBox clickable locked" data-level="2"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Demo for equipped tiles. -->
+        <div class="row">
+            <div class="tile two_handed_weapon clickable activated">
+                <div class="name">
+                    <div>MELEE WEAPON</div>
+                    <div>(TWO HANDED)</div>
+                </div>
+                <div class="equipped-name">
+                    <div>GRAND SWORD</div>
+                </div>
+                <div class="bottomRowContainer">
+                    <div class="level">LEVEL</div>
+                    <div class="levelBox default activated" data-level="1"></div>
+                    <div class="levelBox clickable activated" data-level="2"></div>
+                    <div class="levelBox clickable" data-level="3"></div>
+                </div>
+            </div>
+            <div class="tile two_handed_ranged_weapon clickable activated">
+                <div class="name">
+                    <div>RANGED WEAPON</div>
+                    <div>(TWO HANDED)</div>
+                </div>
+                <div class="equipped-name">
+                    <div>ARBALEST</div>
+                </div>
+                <div class="bottomRowContainer">
+                    <div class="level">LEVEL</div>
+                    <div class="levelBox activated" data-level="1"></div>
+                    <div class="levelBox clickable activated" data-level="2"></div>
+                </div>
+            </div>
+            <div class="tile two_handed_ranged_weapon upgrade clickable activated">
+                <div class="name">
+                    <div>UPGRADE</div>
+                    <div>WEAPON</div>
+                </div>
+                <div class="equipped-name">
+                    <div>FIRE ARROWS</div>
+                </div>
+                <div class="bottomRowContainer">
+                    <div class="level">LEVEL</div>
+                    <div class="levelBox clickable activated" data-level="1"></div>
+                    <div class="levelBox clickable unlocked" data-level="2"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

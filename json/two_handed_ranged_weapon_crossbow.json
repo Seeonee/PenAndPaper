@@ -1,0 +1,1 @@
+{  "name": "Crossbow",  "level": 1,  "slots": [    "two_handed_ranged_weapon"  ],  "types": [    "martial",    "weapon",    "crossbow"  ],  "text": "Attack dice: 5d6 (high-rolling, piercing 3).\nCrossbows fire with immense force, piercing the first 3 points of natural armor on a target. However, they must be reloaded before they can be fired again.\n"}

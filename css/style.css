@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General styling. */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+.column {
+  width: 1000px;
+  margin: auto;
+}
+
+/* Laying out the sections of the skill tree. */
+.skilltree {
+  padding-top: 60px; /* Keep this in sync with the header's height! */
+}
+.section {
+  position: relative;
+  padding: 25px;
+  text-align: center;
+}
+.heading {
+  font-family: "Scada", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
