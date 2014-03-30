@@ -1,0 +1,1 @@
+{  "name": "Phalanx Aura",  "level": 1,  "slots": [    "ability"  ],  "types": [    "divine",    "aura",    "wise",    "war"  ],  "text": "Cost: 1 AP.\nYou activate an aura. Reduce the cost of performing the Guard action by 1 AP for allied characters in the aura.\n\nIncrease your devotion to the wise or war gods by 1.\n"}

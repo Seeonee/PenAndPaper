@@ -1,0 +1,1 @@
+{  "name": "Ethereal Weapon",  "level": 2,  "slots": [    "weapon_upgrade"  ],  "types": [    "weapon",    "arcane",    "elemental"  ],  "text": "All natural damage that would be dealt by the upgraded weapon becomes elemental damage instead.\n"}

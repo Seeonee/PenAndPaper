@@ -1,4 +1,34 @@
 {
+    "ability_aura_of_battle.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,war"
+    }, 
+    "ability_aura_of_brilliance.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,wisdom,fae"
+    }, 
+    "ability_aura_of_censure.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,elemental,aura,sun,storm,sea"
+    }, 
+    "ability_aura_of_judgment.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,spiritual,aura,death,fae,wisdom"
+    }, 
+    "ability_aura_of_mystery.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,spell,wise,fae,death"
+    }, 
+    "ability_aura_of_respite.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,healing,sun,storm,sea"
+    }, 
     "ability_battle_cry.json": {
         "level": 1, 
         "slots": "ability", 
@@ -29,6 +59,11 @@
         "slots": "ability", 
         "types": "martial,weapon,dagger,sword"
     }, 
+    "ability_fireball.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,area"
+    }, 
     "ability_guardian_ghostblade.json": {
         "level": 1, 
         "slots": "ability", 
@@ -37,32 +72,57 @@
     "ability_magic_missile.json": {
         "level": 1, 
         "slots": "ability", 
-        "types": "arcane,elemental,spell"
+        "types": "arcane,elemental,spell,piercing"
     }, 
     "ability_motivational_beating.json": {
         "level": 1, 
         "slots": "ability", 
-        "types": "martial,signature"
+        "types": "martial,signature,piercing"
     }, 
     "ability_opportunity_knocks.json": {
         "level": 1, 
         "slots": "ability", 
         "types": "martial"
     }, 
+    "ability_phalanx_aura.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,wise,war"
+    }, 
     "ability_rallying_cry.json": {
         "level": 1, 
         "slots": "ability", 
         "types": "martial,signature"
+    }, 
+    "ability_soulforge_aura.json": {
+        "level": 3, 
+        "slots": "ability", 
+        "types": "divine,aura,spiritual,death"
+    }, 
+    "ability_starforge_aura.json": {
+        "level": 3, 
+        "slots": "ability", 
+        "types": "divine,aura,elemental,fae"
+    }, 
+    "ability_steel_temple_aura.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,natural,armor,war,storm,sun"
     }, 
     "ability_upgrade_arcane_barrage.json": {
         "level": 2, 
         "slots": "ability_upgrade", 
         "types": "arcane,spell,signature"
     }, 
+    "ability_upgrade_cantrip.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "arcane,spell"
+    }, 
     "ability_upgrade_dedication_to_the_death_god.json": {
         "level": 1, 
         "slots": "ability_upgrade", 
-        "types": "signature,divine,death"
+        "types": "signature,divine,death,spiritual"
     }, 
     "ability_upgrade_dedication_to_the_fae_god.json": {
         "level": 1, 
@@ -94,10 +154,25 @@
         "slots": "ability_upgrade", 
         "types": "signature,divine,wisdom"
     }, 
+    "ability_upgrade_empowered_spell.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "arcane,spell"
+    }, 
+    "ability_upgrade_enlarge_spell.json": {
+        "level": 2, 
+        "slots": "ability_upgrade", 
+        "types": "arcane,spell,area"
+    }, 
     "ability_upgrade_ethereal_wings.json": {
         "level": 1, 
         "slots": "ability_upgrade", 
         "types": "arcane,spell,speed"
+    }, 
+    "ability_upgrade_focused_spell.json": {
+        "level": 1, 
+        "slots": "ability_upgrade", 
+        "types": "arcane,spell,area"
     }, 
     "ability_upgrade_inspiring_performance.json": {
         "level": 1, 
@@ -108,6 +183,11 @@
         "level": 1, 
         "slots": "ability_upgrade", 
         "types": "arcane,weapon,spell"
+    }, 
+    "ability_warsteel_aura.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "divine,aura,war"
     }, 
     "armor_chainmail_armor.json": {
         "level": 2, 
@@ -132,12 +212,17 @@
     "armor_upgrade_crystal_mantle.json": {
         "level": 1, 
         "slots": "armor_upgrade", 
-        "types": "armor,elemental"
+        "types": "armor,arcane,elemental"
     }, 
     "armor_upgrade_flexible_construction.json": {
         "level": 2, 
         "slots": "armor_upgrade", 
         "types": "armor,speed"
+    }, 
+    "armor_upgrade_halo_of_hatred.json": {
+        "level": 1, 
+        "slots": "armor_upgrade", 
+        "types": "arcane,armor,spiritual"
     }, 
     "armor_upgrade_hermetic_shell.json": {
         "level": 2, 
@@ -147,7 +232,7 @@
     "armor_upgrade_holy_mantle.json": {
         "level": 1, 
         "slots": "armor_upgrade", 
-        "types": "armor,divine"
+        "types": "armor,divine,spiritual"
     }, 
     "armor_upgrade_lightweight_construction.json": {
         "level": 1, 
@@ -178,6 +263,21 @@
         "level": 1, 
         "slots": "calling", 
         "types": "martial"
+    }, 
+    "calling_cleric.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "divine"
+    }, 
+    "calling_exemplar.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "divine"
+    }, 
+    "calling_guardian.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": ""
     }, 
     "calling_hunter.json": {
         "level": 1, 
@@ -217,7 +317,7 @@
     "gift_cleave.json": {
         "level": 1, 
         "slots": "gift", 
-        "types": "martial,weapon,axe"
+        "types": "martial,weapon,axe,area"
     }, 
     "gift_conservation_of_mana.json": {
         "level": 1, 
@@ -228,6 +328,11 @@
         "level": 1, 
         "slots": "gift", 
         "types": "martial,weapon,sword,dagger"
+    }, 
+    "gift_haters_cant_be_choosers.json": {
+        "level": 2, 
+        "slots": "gift", 
+        "types": ""
     }, 
     "gift_lunge.json": {
         "level": 1, 
@@ -382,12 +487,12 @@
     "two_handed_ranged_weapon_arbalest.json": {
         "level": 2, 
         "slots": "two_handed_ranged_weapon", 
-        "types": "martial,weapon,crossbow"
+        "types": "martial,weapon,crossbow,piercing"
     }, 
     "two_handed_ranged_weapon_crossbow.json": {
         "level": 1, 
         "slots": "two_handed_ranged_weapon", 
-        "types": "martial,weapon,crossbow"
+        "types": "martial,weapon,crossbow,piercing"
     }, 
     "two_handed_ranged_weapon_longbow.json": {
         "level": 2, 
@@ -398,5 +503,50 @@
         "level": 1, 
         "slots": "two_handed_ranged_weapon", 
         "types": "martial,weapon,bow"
+    }, 
+    "weapon_upgrade_anima_weapon.json": {
+        "level": 2, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,divine,spiritual"
+    }, 
+    "weapon_upgrade_deaths_weapon.json": {
+        "level": 1, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,divine,death,spiritual"
+    }, 
+    "weapon_upgrade_ethereal_weapon.json": {
+        "level": 2, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,arcane,elemental"
+    }, 
+    "weapon_upgrade_faes_weapon.json": {
+        "level": 1, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,divine,fae"
+    }, 
+    "weapon_upgrade_seas_weapon.json": {
+        "level": 1, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,divine,sea"
+    }, 
+    "weapon_upgrade_storms_weapon.json": {
+        "level": 1, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,divine,storm"
+    }, 
+    "weapon_upgrade_suns_weapon.json": {
+        "level": 1, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,divine,sun,healing"
+    }, 
+    "weapon_upgrade_wars_weapon.json": {
+        "level": 1, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,divine,war"
+    }, 
+    "weapon_upgrade_wisdoms_weapon.json": {
+        "level": 1, 
+        "slots": "weapon_upgrade", 
+        "types": "weapon,divine,wisdom"
     }
 }

@@ -6,22 +6,46 @@ var DocModule = (function () {
     // URL vars pulled from the query string.
     var query_values = [];
     my.initializeQueries = function() {
-        var terms = ['name', 'level', 'slot', 'type', 'text'];
+        var terms = {
+            'name': 'text', 
+            'level': 'text', 
+            'slot': 'select', 
+            'type': 'text', 
+            'text': 'text'
+        };
         $.each(terms, function(k ,v) {
-            var s = urlDecode($.getUrlVar('query_' + v));
+            var s = urlDecode($.getUrlVar('query_' + k));
             if (s) {
                 s = s.toLowerCase();
             }
-            query_values[v] = s;
-            $( "input[name*='query_" + v + "']" ).val(s);
+            query_values[k] = s;
+            if (v == 'select') {
+                $( "select[name*='query_" + k + "'] option" ).filter(function() {
+                    return $(this).val() == s;
+                }).prop('selected', true);
+            } else {
+                $( "input[name*='query_" + k + "']" ).val(s);
+            }
         });
     }
 
     // Matching function.
-    my.doesValueMatch = function(value, query_key) {
+    my.doesValueMatch = function(value, query_key, exact_match) {
+        exact_match = exact_match || false;
         var v = query_values[query_key];
         if (v) {
-            return value.toLowerCase().search(v) >= 0;
+            if (exact_match) {
+                pieces = value.toLowerCase().split(',');
+                var found = false;
+                $.each(pieces, function(k, v2) {
+                    if (v2 == v) {
+                        found = true;
+                    }
+                });
+                return found;
+            } else {
+                return value.toLowerCase().search(v) >= 0;
+            }
         } else {
             return true;
         }
@@ -129,11 +153,13 @@ var DocModule = (function () {
     my.addCopyButton = function(doc, container) {
         var copy = $('<div>').attr('class', 'button copy');
         copy.click(function() {
-            var doc = $( this ).parent('.document').clone();
+            var parent = $( this ).parent('.document');
+            var doc = parent.clone();
+            doc.hide();
             doc.remove('.button');
             my.addSaveButton(doc);
             my.addCopyButton(doc, container);
-            doc.appendTo(container);
+            doc.insertAfter(parent);
             doc.slideDown('slow');
         });
         copy.appendTo(doc);

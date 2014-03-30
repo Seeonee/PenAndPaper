@@ -1,1 +1,1 @@
-{  "name": "Motivational Beating",  "level": 1,  "slots": [    "ability"  ],  "types": [    "martial",    "signature"  ],  "text": "Cost: 1 AP, 1 signature.\nDeal 3 piercing natural damage to a nearby allied character. That character regains 1 signature, if they're missing 1.\n"}
+{  "name": "Motivational Beating",  "level": 1,  "slots": [    "ability"  ],  "types": [    "martial",    "signature",    "piercing"  ],  "text": "Cost: 1 AP, 1 signature.\nDeal 3 piercing natural damage to a nearby allied character. That character regains 1 signature, if they're missing 1.\n"}

@@ -1,0 +1,1 @@
+{  "name": "Empowered Spell",  "level": 1,  "slots": [    "ability_upgrade"  ],  "types": [    "arcane",    "spell"  ],  "text": "Increase the upgraded ability's mana cost by 1.\nIncrease damage dealt by the upgraded ability by 1.\nPrerequisite: The upgraded ability must be a spell with a mana cost.\n"}

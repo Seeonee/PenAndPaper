@@ -1,0 +1,1 @@
+{  "name": "Cleric",  "level": 1,  "slots": [    "calling"  ],  "types": [    "divine"  ],  "text": "You gain the Heal ability:\nCost: 1 AP.\nYou or one allied character you touch regains an amount of HP equal to your devotion to your chosen deity.\n\nIncrease your devotion to your chosen deity by 1."}

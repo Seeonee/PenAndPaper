@@ -8,7 +8,7 @@ var SkilltreeSchema = (function () {
         if (data != null) {
             return;
         }
-        var slot_file = 'file://C:/Users/Kevin/Documents/HTML/p&p/slots.json';
+        var slot_file = 'file://C:/Users/Kevin/Documents/GitHub/PenAndPaper/slots.json';
         $.getJSON(slot_file, function(data_param) {
             data = data_param;
             callback();

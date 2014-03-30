@@ -1,0 +1,1 @@
+{  "name": "Anima Weapon",  "level": 2,  "slots": [    "weapon_upgrade"  ],  "types": [    "weapon",    "divine",    "spiritual"  ],  "text": "All natural damage that would be dealt by the upgraded weapon becomes spiritual damage instead.\n"}

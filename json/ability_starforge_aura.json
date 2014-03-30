@@ -1,0 +1,1 @@
+{  "name": "Starforge Aura",  "level": 3,  "slots": [    "ability"  ],  "types": [    "divine",    "aura",    "elemental",    "fae"  ],  "text": "Cost: 1 AP.\nYou activate an aura. All natural damage that would be dealt by weapon attacks made by allied characters in the aura becomes elemental damage instead.\n\nIncrease your devotion to the fae god by 1.\n"}

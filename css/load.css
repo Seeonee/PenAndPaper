@@ -15,9 +15,11 @@ header a {
   text-decoration: none;
 }
 
-/* Search terms. */
+/* Search terms. Some columns can be narrower. */
+.filter input[name="query_type"] {
+  width: 100px;
+}
 .filter input[name="query_level"] {
-  /* Level column doesn't need to be so wide. */
   width: 20px;
 }
 

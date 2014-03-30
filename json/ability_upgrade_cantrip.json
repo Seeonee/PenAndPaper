@@ -1,0 +1,1 @@
+{  "name": "Cantrip",  "level": 1,  "slots": [    "ability_upgrade"  ],  "types": [    "arcane",    "spell"  ],  "text": "Reduce the upgraded ability's mana cost by 1, to a minimum of 1.\nPrerequisite: The upgraded ability must be a spell with a mana cost.\n"}

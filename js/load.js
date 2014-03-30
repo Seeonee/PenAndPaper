@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
 
-    root = 'file://C:/Users/Kevin/Documents/HTML/p&p/json/';
+    root = 'file://C:/Users/Kevin/Documents/GitHub/PenAndPaper/json/';
     index_files = ['_index.json'];
     container = $('.container');
 
@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
             types = v.types;
             if (DocModule.doesValueMatch(name.replace(/_/g, ' '), 'name') &&
                   DocModule.doesValueMatch(level.replace(/_/g, ' '), 'level') &&
-                  DocModule.doesValueMatch(slots.replace(/_/g, ' '), 'slot') &&
+                  DocModule.doesValueMatch(slots.replace(/_/g, ' '), 'slot', true) &&
                   DocModule.doesValueMatch(types.replace(/_/g, ' '), 'type')) {
                 $.getJSON(root + name, parseBeforeTextFiltering);
             }
