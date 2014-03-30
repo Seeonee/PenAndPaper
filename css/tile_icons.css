@@ -55,59 +55,59 @@
   background-image: url("../images/heritage_active.png");
 }
 
-.background.main_hand_shield {
-  background-image: url("../images/main_hand_shield_inactive.png");
+.background.one_handed_shield {
+  background-image: url("../images/one_handed_shield_inactive.png");
 }
-.background.main_hand_shield.activated {
-  background-image: url("../images/main_hand_shield_active.png");
-}
-
-.background.main_hand_shield.upgrade {
-  background-image: url("../images/main_hand_shield_upgrade_inactive.png");
-}
-.background.main_hand_shield.upgrade.activated {
-  background-image: url("../images/main_hand_shield_upgrade_active.png");
+.background.one_handed_shield.activated {
+  background-image: url("../images/one_handed_shield_active.png");
 }
 
-.background.main_hand_weapon {
-  background-image: url("../images/main_hand_weapon_inactive.png");
+.background.one_handed_shield.upgrade {
+  background-image: url("../images/one_handed_shield_upgrade_inactive.png");
 }
-.background.main_hand_weapon.activated {
-  background-image: url("../images/main_hand_weapon_active.png");
-}
-
-.background.main_hand_weapon.upgrade {
-  background-image: url("../images/main_hand_weapon_upgrade_inactive.png");
-}
-.background.main_hand_weapon.upgrade.activated {
-  background-image: url("../images/main_hand_weapon_upgrade_active.png");
+.background.one_handed_shield.upgrade.activated {
+  background-image: url("../images/one_handed_shield_upgrade_active.png");
 }
 
-.background.offhand_shield {
+.background.one_handed_weapon {
+  background-image: url("../images/one_handed_weapon_inactive.png");
+}
+.background.one_handed_weapon.activated {
+  background-image: url("../images/one_handed_weapon_active.png");
+}
+
+.background.one_handed_weapon.upgrade {
+  background-image: url("../images/one_handed_weapon_upgrade_inactive.png");
+}
+.background.one_handed_weapon.upgrade.activated {
+  background-image: url("../images/one_handed_weapon_upgrade_active.png");
+}
+
+.background.one_handed_shield[data-instance="2"] {
   background-image: url("../images/offhand_shield_inactive.png");
 }
-.background.offhand_shield.activated {
+.background.one_handed_shield.activated[data-instance="2"] {
   background-image: url("../images/offhand_shield_active.png");
 }
 
-.background.offhand_shield.upgrade {
+.background.one_handed_shield.upgrade[data-instance="2"] {
   background-image: url("../images/offhand_shield_upgrade_inactive.png");
 }
-.background.offhand_shield.upgrade.activated {
+.background.one_handed_shield.upgrade.activated[data-instance="2"] {
   background-image: url("../images/offhand_shield_upgrade_active.png");
 }
 
-.background.offhand_weapon {
+.background.one_handed_weapon[data-instance="2"] {
   background-image: url("../images/offhand_weapon_inactive.png");
 }
-.background.offhand_weapon.activated {
+.background.one_handed_weapon.activated[data-instance="2"] {
   background-image: url("../images/offhand_weapon_active.png");
 }
 
-.background.offhand_weapon.upgrade {
+.background.one_handed_weapon.upgrade[data-instance="2"] {
   background-image: url("../images/offhand_weapon_upgrade_inactive.png");
 }
-.background.offhand_weapon.upgrade.activated {
+.background.one_handed_weapon.upgrade.activated[data-instance="2"] {
   background-image: url("../images/offhand_weapon_upgrade_active.png");
 }
 

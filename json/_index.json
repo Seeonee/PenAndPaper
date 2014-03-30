@@ -389,99 +389,144 @@
         "slots": "heritage", 
         "types": ""
     }, 
-    "main_hand_weapon_axe.json": {
+    "one_handed_weapon_axe.json": {
         "level": 2, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,axe"
     }, 
-    "main_hand_weapon_battle_axe.json": {
+    "one_handed_weapon_battle_axe.json": {
         "level": 3, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,axe"
     }, 
-    "main_hand_weapon_brass_knuckle.json": {
+    "one_handed_weapon_brass_knuckle.json": {
         "level": 1, 
-        "slots": "main_hand_weapon,offhand_weapon", 
+        "slots": "one_handed_weapon", 
         "types": "martial,weapon,gauntlet"
     }, 
-    "main_hand_weapon_caber.json": {
+    "one_handed_weapon_caber.json": {
         "level": 3, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,club"
     }, 
-    "main_hand_weapon_cestus.json": {
+    "one_handed_weapon_cestus.json": {
         "level": 3, 
-        "slots": "main_hand_weapon,offhand_weapon", 
+        "slots": "one_handed_weapon", 
         "types": "martial,weapon,gauntlet"
     }, 
-    "main_hand_weapon_club.json": {
+    "one_handed_weapon_club.json": {
         "level": 1, 
-        "slots": "main_hand_weapon,offhand_weapon", 
+        "slots": "one_handed_weapon", 
         "types": "martial,weapon,club"
     }, 
-    "main_hand_weapon_cudgel.json": {
+    "one_handed_weapon_cudgel.json": {
         "level": 2, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,club"
     }, 
-    "main_hand_weapon_dagger.json": {
+    "one_handed_weapon_dagger.json": {
         "level": 1, 
-        "slots": "main_hand_weapon,offhand_weapon", 
+        "slots": "one_handed_weapon", 
         "types": "martial,weapon,dagger"
     }, 
-    "main_hand_weapon_gauntlet.json": {
+    "one_handed_weapon_gauntlet.json": {
         "level": 2, 
-        "slots": "main_hand_weapon,offhand_weapon", 
+        "slots": "one_handed_weapon", 
         "types": "martial,weapon,gauntlet"
     }, 
-    "main_hand_weapon_grand_sword.json": {
+    "one_handed_weapon_grand_sword.json": {
         "level": 3, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,sword"
     }, 
-    "main_hand_weapon_hammer.json": {
+    "one_handed_weapon_hammer.json": {
         "level": 1, 
-        "slots": "main_hand_weapon,offhand_weapon", 
+        "slots": "one_handed_weapon", 
         "types": "martial,weapon,mace"
     }, 
-    "main_hand_weapon_hatchet.json": {
+    "one_handed_weapon_hatchet.json": {
         "level": 1, 
-        "slots": "main_hand_weapon,offhand_weapon", 
+        "slots": "one_handed_weapon", 
         "types": "martial,weapon,axe"
     }, 
-    "main_hand_weapon_lance.json": {
+    "one_handed_weapon_lance.json": {
         "level": 3, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,spear"
     }, 
-    "main_hand_weapon_mace.json": {
+    "one_handed_weapon_mace.json": {
         "level": 2, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,mace"
     }, 
-    "main_hand_weapon_morningstar.json": {
+    "one_handed_weapon_morningstar.json": {
         "level": 3, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,mace"
     }, 
-    "main_hand_weapon_spear.json": {
+    "one_handed_weapon_spear.json": {
         "level": 2, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,spear"
     }, 
-    "main_hand_weapon_staff.json": {
+    "one_handed_weapon_staff.json": {
         "level": 2, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "arcane,weapon,wand"
     }, 
-    "main_hand_weapon_sword.json": {
+    "one_handed_weapon_sword.json": {
         "level": 2, 
-        "slots": "main_hand_weapon,offhand_weapon,two_handed_weapon", 
+        "slots": "one_handed_weapon,two_handed_weapon", 
         "types": "martial,weapon,sword"
     }, 
-    "main_hand_weapon_wand.json": {
+    "one_handed_weapon_upgrade_anima_weapon.json": {
+        "level": 2, 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,divine,spiritual"
+    }, 
+    "one_handed_weapon_upgrade_deaths_weapon.json": {
         "level": 1, 
-        "slots": "main_hand_weapon,offhand_weapon", 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,divine,death,spiritual"
+    }, 
+    "one_handed_weapon_upgrade_ethereal_weapon.json": {
+        "level": 2, 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,arcane,elemental"
+    }, 
+    "one_handed_weapon_upgrade_faes_weapon.json": {
+        "level": 1, 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,divine,fae"
+    }, 
+    "one_handed_weapon_upgrade_seas_weapon.json": {
+        "level": 1, 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,divine,sea"
+    }, 
+    "one_handed_weapon_upgrade_storms_weapon.json": {
+        "level": 1, 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,divine,storm"
+    }, 
+    "one_handed_weapon_upgrade_suns_weapon.json": {
+        "level": 1, 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,divine,sun,healing"
+    }, 
+    "one_handed_weapon_upgrade_wars_weapon.json": {
+        "level": 1, 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,divine,war"
+    }, 
+    "one_handed_weapon_upgrade_wisdoms_weapon.json": {
+        "level": 1, 
+        "slots": "one_handed_weapon_upgrade,two_handed_weapon_upgrade,two_handed_ranged_weapon_upgrade", 
+        "types": "weapon,divine,wisdom"
+    }, 
+    "one_handed_weapon_wand.json": {
+        "level": 1, 
+        "slots": "one_handed_weapon", 
         "types": "arcane,weapon,wand"
     }, 
     "two_handed_ranged_weapon_arbalest.json": {
@@ -503,50 +548,5 @@
         "level": 1, 
         "slots": "two_handed_ranged_weapon", 
         "types": "martial,weapon,bow"
-    }, 
-    "weapon_upgrade_anima_weapon.json": {
-        "level": 2, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,divine,spiritual"
-    }, 
-    "weapon_upgrade_deaths_weapon.json": {
-        "level": 1, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,divine,death,spiritual"
-    }, 
-    "weapon_upgrade_ethereal_weapon.json": {
-        "level": 2, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,arcane,elemental"
-    }, 
-    "weapon_upgrade_faes_weapon.json": {
-        "level": 1, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,divine,fae"
-    }, 
-    "weapon_upgrade_seas_weapon.json": {
-        "level": 1, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,divine,sea"
-    }, 
-    "weapon_upgrade_storms_weapon.json": {
-        "level": 1, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,divine,storm"
-    }, 
-    "weapon_upgrade_suns_weapon.json": {
-        "level": 1, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,divine,sun,healing"
-    }, 
-    "weapon_upgrade_wars_weapon.json": {
-        "level": 1, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,divine,war"
-    }, 
-    "weapon_upgrade_wisdoms_weapon.json": {
-        "level": 1, 
-        "slots": "weapon_upgrade", 
-        "types": "weapon,divine,wisdom"
     }
 }

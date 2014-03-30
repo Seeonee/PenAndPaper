@@ -1,0 +1,1 @@
+{  "name": "Wisdom's Weapon",  "level": 1,  "slots": [    "one_handed_weapon_upgrade",    "two_handed_weapon_upgrade",    "two_handed_ranged_weapon_upgrade"  ],  "types": [    "weapon",    "divine",    "wisdom"  ],  "text": "When you successfully attack one of your sworn enemies with the upgraded weapon, you regain 1 mana.\n\nIncrease your devotion to the wise god by 1.\n"}

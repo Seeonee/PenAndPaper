@@ -11,54 +11,58 @@
             "locked": 0
         }
     }, 
-    "main_hand_weapon": {
-        "1": {
-            "cost": 1,
-            "locked": 0
-        },
-        "2": {
-            "cost": 1,
-            "locked": 0
-        },
-        "3": {
-            "cost": 1,
-            "locked": 0
-        }
-    }, 
-    "main_hand_weapon_upgrade": {
-        "1": {
-            "cost": 1,
-            "locked": 0
+    "one_handed_weapon": [
+        {
+            "1": {
+                "cost": 1,
+                "locked": 0
+            },
+            "2": {
+                "cost": 1,
+                "locked": 0
+            },
+            "3": {
+                "cost": 1,
+                "locked": 0
+            }
         }, 
-        "2": {
-            "cost": 1,
-            "locked": 1
+        {
+            "1": {
+                "cost": 1,
+                "locked": 0
+            },
+            "2": {
+                "cost": 1,
+                "locked": 0
+            },
+            "3": {
+                "cost": 1,
+                "locked": 0
+            }
         }
-    }, 
-    "offhand_weapon": {
-        "1": {
-            "cost": 1,
-            "locked": 0
-        },
-        "2": {
-            "cost": 1,
-            "locked": 0
-        },
-        "3": {
-            "cost": 1,
-            "locked": 0
-        }
-    }, 
-    "offhand_weapon_upgrade": {
-        "1": {
-            "cost": 1,
-            "locked": 0
+    ], 
+    "one_handed_weapon_upgrade": [
+        {
+            "1": {
+                "cost": 1,
+                "locked": 0
+            }, 
+            "2": {
+                "cost": 1,
+                "locked": 1
+            }
         }, 
-        "2": {
-            "cost": 1,
-            "locked": 1
+        {
+            "1": {
+                "cost": 1,
+                "locked": 0
+            }, 
+            "2": {
+                "cost": 1,
+                "locked": 1
+            }
         }
-    }, 
+    ], 
     "two_handed_weapon": {
         "1": {
             "cost": 0,
@@ -104,38 +108,42 @@
             "locked": 1
         }
     }, 
-    "main_hand_shield": {
-        "1": {
-            "cost": 1,
-            "locked": 0
+    "one_handed_shield": [
+        {
+            "1": {
+                "cost": 1,
+                "locked": 0
+            }
+        },
+        {
+            "1": {
+                "cost": 1,
+                "locked": 0
+            }
         }
-    }, 
-    "main_hand_shield_upgrade": {
-        "1": {
-            "cost": 1,
-            "locked": 0
+    ], 
+    "one_handed_shield_upgrade": [
+        {
+            "1": {
+                "cost": 1,
+                "locked": 0
+            }, 
+            "2": {
+                "cost": 1,
+                "locked": 1
+            }
         }, 
-        "2": {
-            "cost": 1,
-            "locked": 1
+        {
+            "1": {
+                "cost": 1,
+                "locked": 0
+            }, 
+            "2": {
+                "cost": 1,
+                "locked": 1
+            }
         }
-    }, 
-    "offhand_shield": {
-        "1": {
-            "cost": 1,
-            "locked": 0
-        }
-    }, 
-    "offhand_shield_upgrade": {
-        "1": {
-            "cost": 1,
-            "locked": 0
-        }, 
-        "2": {
-            "cost": 1,
-            "locked": 1
-        }
-    }, 
+    ], 
     "armor": {
         "1": {
             "cost": 0,

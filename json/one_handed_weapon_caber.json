@@ -1,0 +1,1 @@
+{  "name": "Caber",  "level": 3,  "slots": [    "one_handed_weapon",    "two_handed_weapon"  ],  "types": [    "martial",    "weapon",    "club"  ],  "text": "Attack dice: 7d6.\nCabers can be scrounged from the environment. A character who loses their caber can immediately create a new one for free."}

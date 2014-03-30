@@ -1,0 +1,1 @@
+{  "name": "Sun's Weapon",  "level": 1,  "slots": [    "one_handed_weapon_upgrade",    "two_handed_weapon_upgrade",    "two_handed_ranged_weapon_upgrade"  ],  "types": [    "weapon",    "divine",    "sun",    "healing"  ],  "text": "When you successfully attack one of your sworn enemies with the upgraded weapon, you regain 1 HP.\n\nIncrease your devotion to the sun god by 1.\n"}

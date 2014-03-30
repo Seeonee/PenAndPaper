@@ -1,0 +1,1 @@
+{  "name": "Spear",  "level": 2,  "slots": [    "one_handed_weapon",    "two_handed_weapon"  ],  "types": [    "martial",    "weapon",    "spear"  ],  "text": "Attack dice: 6d6.\nSpears can be used at twice the range of most melee weapons. Doing so incurs a penalty of -1 dice to the attack roll.\n"}

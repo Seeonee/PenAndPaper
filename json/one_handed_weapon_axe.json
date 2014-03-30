@@ -1,0 +1,1 @@
+{  "name": "Axe",  "level": 2,  "slots": [    "one_handed_weapon",    "two_handed_weapon"  ],  "types": [    "martial",    "weapon",    "axe"  ],  "text": "Attack dice: 6d6.\nAxes can inflict lasting damage. When you make a successful axe attack, roll an additional die. If it’s a 5 or higher, increase the attack's damage by 1."}

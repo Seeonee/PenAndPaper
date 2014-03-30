@@ -53,43 +53,43 @@
   margin-left: -74px;
 }
 
-.section.weapons .tile.main_hand_weapon {
+.section.weapons .tile.one_handed_weapon[data-instance="1"] {
   top: 320px;
   left: 29%;
   margin-left: -84px;
 }
-.section.weapons .tile.main_hand_weapon.upgrade {
+.section.weapons .tile.one_handed_weapon.upgrade[data-instance="1"] {
   top: 235px;
   left: 11%;
   margin-left: -74px;
 }
-.section.weapons .tile.main_hand_shield {
+.section.weapons .tile.one_handed_shield[data-instance="1"] {
   top: 570px;
   left: 29%;
   margin-left: -84px;
 }
-.section.weapons .tile.main_hand_shield.upgrade {
+.section.weapons .tile.one_handed_shield.upgrade[data-instance="1"] {
   top: 655px;
   left: 11%;
   margin-left: -74px;
 }
 
-.section.weapons .tile.offhand_weapon {
+.section.weapons .tile.one_handed_weapon[data-instance="2"] {
   top: 320px;
   left: 71%;
   margin-left: -84px;
 }
-.section.weapons .tile.offhand_weapon.upgrade {
+.section.weapons .tile.one_handed_weapon.upgrade[data-instance="2"] {
   top: 235px;
   left: 89%;
   margin-left: -74px;
 }
-.section.weapons .tile.offhand_shield {
+.section.weapons .tile.one_handed_shield[data-instance="2"] {
   top: 570px;
   left: 71%;
   margin-left: -84px;
 }
-.section.weapons .tile.offhand_shield.upgrade {
+.section.weapons .tile.one_handed_shield.upgrade[data-instance="2"] {
   top: 655px;
   left: 89%;
   margin-left: -74px;

@@ -1,0 +1,1 @@
+{  "name": "Club",  "level": 1,  "slots": [    "one_handed_weapon"  ],  "types": [    "martial",    "weapon",    "club"  ],  "text": "Attack dice: 5d6 (high-rolling).\nClubs can be scrounged from the environment. A character who loses their club can immediately create a new one for free."}

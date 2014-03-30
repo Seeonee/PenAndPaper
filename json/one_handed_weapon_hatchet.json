@@ -1,0 +1,1 @@
+{  "name": "Hatchet",  "level": 1,  "slots": [    "one_handed_weapon"  ],  "types": [    "martial",    "weapon",    "axe"  ],  "text": "Hatchets can inflict lasting damage. When you make a successful hatchet attack, roll an additional die. If it’s a 5 or higher, increase the attack's damage by 1."}
