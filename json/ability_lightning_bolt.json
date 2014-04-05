@@ -1,0 +1,1 @@
+{  "name": "Lightning Bolt",  "level": 1,  "slots": [    "ability"  ],  "types": [    "arcane",    "elemental",    "spell",    "attack",    "piercing"  ],  "text": "Cost: 2 AP, 1 mana.\nMake a 5d6 (high-rolling) piercing elemental attack against a character within range.\n\nIncrease&nbsp;the size of your mana pool by 1.\n"}

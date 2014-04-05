@@ -1,0 +1,34 @@
+
+/* Styling for the document editing buttons. */
+.document .button.save {
+  top: 10px;
+  background-image: url('../images/save.png');
+}
+.document .button.save:hover {
+  background-image: url('../images/save_active.png');
+}
+.document .button.download {
+  display: none;
+}
+.document .button.copy {
+  top: 34px;
+  background-image: url('../images/copy.png');
+}
+.document .button.copy:hover {
+  background-image: url('../images/copy_active.png');
+}
+
+/* Styling for the "Add a new document" button. */
+.add_more {
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px 0 20px 0;
+  cursor: pointer;
+  font-family: 'Verdana';
+  font-size: 24px;
+  text-align: center;
+}
+.add_more:hover {
+  background-color: #e1e1e1;
+  color: #c8012e;
+}

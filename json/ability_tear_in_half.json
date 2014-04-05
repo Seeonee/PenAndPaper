@@ -1,0 +1,1 @@
+{  "name": "Tear In Half",  "level": 1,  "slots": [    "ability"  ],  "types": [    "martial",    "weapon",    "unarmed",    "gauntlet"  ],  "text": "Cost: 0 AP.\nKill a nearby enemy character which has 3 or fewer remaining HP.\nRestriction: You must have damaged the character with 2 unarmed and/or gauntlet attacks during this turn.\n"}

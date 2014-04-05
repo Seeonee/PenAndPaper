@@ -1,0 +1,1 @@
+{  "name": "Immolation Aura",  "level": 2,  "slots": [    "ability"  ],  "types": [    "divine",    "aura",    "elemental",    "sun"  ],  "text": "Cost: 1 AP.\nYou activate an aura. An allied character who begins their turn in the aura deals 1 elemental damage to all&nbsp;enemy&nbsp;characters near them.\n\nIncrease your devotion to the sun god by 1.\n"}

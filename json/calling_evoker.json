@@ -1,0 +1,1 @@
+{  "name": "Evoker",  "level": 1,  "slots": [    "calling"  ],  "types": [    "arcane",    "spell"  ],  "text": "Whenever you spend your entire mana pool to cast a single spell, increase that spell's damage by 1.\n"}

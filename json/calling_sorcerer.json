@@ -1,0 +1,1 @@
+{  "name": "Sorcerer",  "level": 1,  "slots": [    "calling"  ],  "types": [    "arcane",    "spell"  ],  "text": "You gain the Overcharge ability:\nCost: 1 AP, 1 mana.\nYou gain a bonus +1 damage to your next spell attack.\n"}

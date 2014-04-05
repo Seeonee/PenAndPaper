@@ -1,0 +1,70 @@
+
+/* Styling for the document container. */
+.document {
+  position: relative;
+  font-family: "Verdana";
+  font-weight: normal;
+  overflow: auto;
+  border: 2px solid #fff;
+  margin-top: 10px;
+}
+.document:hover {
+  border-color: #c8012e;
+}
+.document .icon {
+  position: relative;
+  float: left;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 9px;
+  cursor: default;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.document .name {
+  position: absolute;
+  top: 35%;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #c8012e;
+}
+.document .info {
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+.document .tag {
+  display: inline-block;
+  width: 60px;
+  font-family: "Scada", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  padding: 0 5px 5px 0;
+}
+.document .value {
+  vertical-align: text-top;
+  display: inline-block;
+  width: 600px;
+}
+.document .text {
+  padding-top: 10px;
+  width: 675px;
+}
+.document .button {
+  position: absolute;
+  right: 10px;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #e1e1e1;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.document .button:hover {
+  border-color: #c8012e;
+}
+

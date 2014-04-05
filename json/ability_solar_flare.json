@@ -1,0 +1,1 @@
+{  "name": "Solar Flare",  "level": 2,  "slots": [    "ability"  ],  "types": [    "arcane",    "elemental",    "spell",    "attack"  ],  "text": "Cost: 2 AP, 2 mana.\nMake a 6d6 elemental attack against a character&nbsp;within range. That character temporarily loses any evasion they have, and cannot gain evasion while this effect persists.\n"}

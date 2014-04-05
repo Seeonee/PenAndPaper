@@ -1,0 +1,1 @@
+{  "name": "Moonlight Aura",  "level": 2,  "slots": [    "ability"  ],  "types": [    "divine",    "aura",    "healing",    "fae"  ],  "text": "Cost: 1 AP.\nYou activate an aura.&nbsp;Whenever an allied character in the aura would regain 3 or more HP, they regain an additional 1 HP.\n\nIncrease your devotion to the fae god by 1.\n"}

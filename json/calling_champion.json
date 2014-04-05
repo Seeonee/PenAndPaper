@@ -1,1 +1,1 @@
-{  "name": "Champion",  "level": 1,  "slots": [    "calling"  ],  "types": [    "martial"  ],  "text": "Whenever you perform a Normal Attack, you may first perform a Raise Shield action for free.\nWhenever you make a successful weapon attack, you regain 1 HP.\n"}
+{  "name": "Champion",  "level": 1,  "slots": [    "calling"  ],  "types": [    "martial",    "shield"  ],  "text": "Whenever you perform a Normal Attack, you may first perform a Raise Shield action for free.\nWhenever you make a successful weapon attack, you regain 1 HP.\n"}

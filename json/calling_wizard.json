@@ -1,0 +1,1 @@
+{  "name": "Wizard",  "level": 1,  "slots": [    "calling"  ],  "types": [    "arcane",    "spell"  ],  "text": "At the start of your turn, roll a die. On a 5 or higher, the first spell action you perform this turn costs no mana.\n\nIncrease the size of your mana pool by 1.\n"}

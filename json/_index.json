@@ -1,4 +1,14 @@
 {
+    "ability_acid_exposure.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,armor"
+    }, 
+    "ability_arctic_flurry.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,attack,armor"
+    }, 
     "ability_aura_of_battle.json": {
         "level": 1, 
         "slots": "ability", 
@@ -59,20 +69,90 @@
         "slots": "ability", 
         "types": "martial,weapon,dagger,sword"
     }, 
-    "ability_fireball.json": {
+    "ability_calm_the_storm.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "divine,armor,elemental"
+    }, 
+    "ability_chain_lightning.json": {
         "level": 1, 
         "slots": "ability", 
-        "types": "arcane,elemental,spell,area"
+        "types": "arcane,elemental,spell,attack"
+    }, 
+    "ability_cone_of_cold.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,area,attack"
+    }, 
+    "ability_executioners_swing.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial,weapon,axe,signature"
+    }, 
+    "ability_fireball.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,area,attack"
     }, 
     "ability_guardian_ghostblade.json": {
         "level": 1, 
         "slots": "ability", 
         "types": "arcane,martial,spell,weapon,dagger,sword"
     }, 
+    "ability_gust.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,attack"
+    }, 
+    "ability_haymaker.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial,weapon,unarmed,gauntlet"
+    }, 
+    "ability_hounding_hex.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,spiritual,spell,attack"
+    }, 
+    "ability_icy_prison.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,attack,immobilizing,signature"
+    }, 
+    "ability_immolation_aura.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "divine,aura,elemental,sun"
+    }, 
+    "ability_lightning_bolt.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,attack,piercing"
+    }, 
+    "ability_maelstrom_aura.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,speed,sea"
+    }, 
     "ability_magic_missile.json": {
         "level": 1, 
         "slots": "ability", 
-        "types": "arcane,elemental,spell,piercing"
+        "types": "arcane,elemental,spell,attack"
+    }, 
+    "ability_meditate.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,armor,spiritual"
+    }, 
+    "ability_mind_over_matter.json": {
+        "level": 3, 
+        "slots": "ability", 
+        "types": "divine,armor,natural"
+    }, 
+    "ability_moonlight_aura.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "divine,aura,healing,fae"
     }, 
     "ability_motivational_beating.json": {
         "level": 1, 
@@ -87,12 +167,37 @@
     "ability_phalanx_aura.json": {
         "level": 1, 
         "slots": "ability", 
-        "types": "divine,aura,wise,war"
+        "types": "martial,divine,aura,war"
     }, 
     "ability_rallying_cry.json": {
         "level": 1, 
         "slots": "ability", 
         "types": "martial,signature"
+    }, 
+    "ability_reaping_aura.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,healing,death"
+    }, 
+    "ability_scorch.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,attack"
+    }, 
+    "ability_silver_shrine_aura.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "divine,aura,spiritual,armor,fae,wisdom,death"
+    }, 
+    "ability_smite.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,martial,weapon"
+    }, 
+    "ability_solar_flare.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,attack"
     }, 
     "ability_soulforge_aura.json": {
         "level": 3, 
@@ -105,14 +210,49 @@
         "types": "divine,aura,elemental,fae"
     }, 
     "ability_steel_temple_aura.json": {
-        "level": 1, 
+        "level": 2, 
         "slots": "ability", 
         "types": "divine,aura,natural,armor,war,storm,sun"
+    }, 
+    "ability_stone_sanctum_aura.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "divine,aura,elemental,armor,sea,storm,sun"
+    }, 
+    "ability_tear_in_half.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "martial,weapon,unarmed,gauntlet"
+    }, 
+    "ability_terrify.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,spiritual,spell,attack"
+    }, 
+    "ability_thorns_aura.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,natural,fae"
+    }, 
+    "ability_thunderclap.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,area,attack"
+    }, 
+    "ability_trueshot_aura.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "divine,aura,storm"
     }, 
     "ability_upgrade_arcane_barrage.json": {
         "level": 2, 
         "slots": "ability_upgrade", 
         "types": "arcane,spell,signature"
+    }, 
+    "ability_upgrade_caduceus.json": {
+        "level": 2, 
+        "slots": "ability_upgrade", 
+        "types": "arcane,spell,healing,signature"
     }, 
     "ability_upgrade_cantrip.json": {
         "level": 1, 
@@ -184,10 +324,20 @@
         "slots": "ability_upgrade", 
         "types": "arcane,weapon,spell"
     }, 
+    "ability_wailing_winds.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,elemental,spell,area,attack"
+    }, 
     "ability_warsteel_aura.json": {
         "level": 2, 
         "slots": "ability", 
-        "types": "divine,aura,war"
+        "types": "martial,divine,aura,war"
+    }, 
+    "ability_water_whip.json": {
+        "level": 1, 
+        "slots": "ability", 
+        "types": "arcane,spell,elemental,attack"
     }, 
     "armor_chainmail_armor.json": {
         "level": 2, 
@@ -257,42 +407,82 @@
     "calling_berserker.json": {
         "level": 1, 
         "slots": "calling", 
-        "types": "martial"
+        "types": "martial,natural"
     }, 
     "calling_champion.json": {
         "level": 1, 
         "slots": "calling", 
-        "types": "martial"
+        "types": "martial,shield"
     }, 
     "calling_cleric.json": {
         "level": 1, 
         "slots": "calling", 
-        "types": "divine"
+        "types": "divine,healing"
+    }, 
+    "calling_evoker.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "arcane,spell"
     }, 
     "calling_exemplar.json": {
         "level": 1, 
         "slots": "calling", 
-        "types": "divine"
+        "types": "divine,aura"
+    }, 
+    "calling_forbidden_arcanist.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "arcane,spell"
     }, 
     "calling_guardian.json": {
         "level": 1, 
         "slots": "calling", 
-        "types": ""
+        "types": "natural"
     }, 
     "calling_hunter.json": {
         "level": 1, 
         "slots": "calling", 
-        "types": "martial"
+        "types": "martial,natural"
+    }, 
+    "calling_monk.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "divine,natural,martial"
     }, 
     "calling_musketeer.json": {
         "level": 1, 
         "slots": "calling", 
-        "types": "martial"
+        "types": "martial,weapon,sword,dagger"
+    }, 
+    "calling_necromancer.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "arcane,summon"
+    }, 
+    "calling_paladin.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "divine"
+    }, 
+    "calling_sorcerer.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "arcane,spell"
     }, 
     "calling_spellsword.json": {
         "level": 1, 
         "slots": "calling", 
-        "types": "arcane,martial"
+        "types": "arcane,martial,weapon,sword,dagger"
+    }, 
+    "calling_totemist.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "divine,natural,aura"
+    }, 
+    "calling_wizard.json": {
+        "level": 1, 
+        "slots": "calling", 
+        "types": "arcane,spell"
     }, 
     "curse_flammable.json": {
         "level": 1, 
@@ -309,6 +499,11 @@
         "slots": "curse", 
         "types": "martial"
     }, 
+    "gift_arrowcatch.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "martial,weapon,unarmed,gauntlet"
+    }, 
     "gift_brutal_weapon.json": {
         "level": 1, 
         "slots": "gift", 
@@ -324,10 +519,20 @@
         "slots": "gift", 
         "types": "arcane"
     }, 
+    "gift_death_is_fast_approaching.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "martial,weapon,spiritual"
+    }, 
     "gift_duelist.json": {
         "level": 1, 
         "slots": "gift", 
         "types": "martial,weapon,sword,dagger"
+    }, 
+    "gift_geoclash.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "arcane,martial,elemental,spell,attack"
     }, 
     "gift_haters_cant_be_choosers.json": {
         "level": 2, 
@@ -340,6 +545,16 @@
         "types": "martial,weapon"
     }, 
     "gift_mana_battery.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "arcane"
+    }, 
+    "gift_onetwo_punch.json": {
+        "level": 1, 
+        "slots": "gift", 
+        "types": "martial,weapon,unarmed,gauntlet"
+    }, 
+    "gift_soulcatcher.json": {
         "level": 1, 
         "slots": "gift", 
         "types": "arcane"

@@ -1,0 +1,1 @@
+{  "name": "Thorns Aura",  "level": 1,  "slots": [    "ability"  ],  "types": [    "divine",    "aura",    "natural",    "fae"  ],  "text": "Cost: 1 AP.\nYou activate an aura. Whenever an enemy character damages an allied character in the aura with a weapon attack, the allied character deals the enemy character 1 natural damage.\n\nIncrease your devotion to the fae god by 1.\n"}

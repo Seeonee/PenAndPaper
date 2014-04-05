@@ -1,1 +1,1 @@
-{  "name": "Berserker",  "level": 1,  "slots": [    "calling"  ],  "types": [    "martial"  ],  "text": "Reduce the number of wounds you gain after battle by 1 for each wound you received during the battle.\n\nYou gain the Frenzy ability:\nCost: 0 AP.\nYou gain 1 wound and 1 AP.\n"}
+{  "name": "Berserker",  "level": 1,  "slots": [    "calling"  ],  "types": [    "martial",    "natural"  ],  "text": "Reduce the number of wounds you gain after battle by 1 for each wound you received during the battle.\n\nYou gain the Frenzy ability:\nCost: 0 AP.\nYou gain 1 wound and 1 AP.\n"}
