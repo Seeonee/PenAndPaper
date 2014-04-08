@@ -1,0 +1,1 @@
+{  "name": "Thunderquake",  "level": 3,  "slots": [    "ability"  ],  "types": [    "arcane",    "elemental",    "spell",    "area",    "attack"  ],  "text": "Cost: 2 AP, 4 mana.\nMake a 7d6 elemental area attack against all nearby enemy characters. Each character which the attack succeeds against is knocked down.\n\nIncrease&nbsp;the size of your mana pool by 3.\n"}

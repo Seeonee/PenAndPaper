@@ -1,0 +1,1 @@
+{  "name": "Flash Step",  "level": 1,  "slots": [    "ability"  ],  "types": [    "speed",    "signature"  ],  "text": "Cost: 0 AP, 1 signature.\nMove a number of spaces equal to twice your speed.\n"}

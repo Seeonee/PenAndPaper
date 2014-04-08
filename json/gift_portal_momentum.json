@@ -1,0 +1,1 @@
+{  "name": "Portal Momentum",  "level": 1,  "slots": [    "gift"  ],  "types": [    "arcane"  ],  "text": "Whenever you teleport and move fewer spaces than the teleport allows, roll a number of dice equal to the difference. You gain a temporary damage bonus to your next attack against a nearby enemy equal to the number of dice which come up 5 or higher.\n"}

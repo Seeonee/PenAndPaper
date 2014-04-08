@@ -1,0 +1,1 @@
+{  "name": "Warden",  "level": 1,  "slots": [    "calling"  ],  "types": [    "natural",    "aura"  ],  "text": "You gain the Primal Wrath ability:\nCost: 0 AP.\nYou activate an aura. Enemy characters in the aura must spend 1 additional AP to perform any action that does not include retreating or attacking you.\n"}

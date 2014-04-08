@@ -1,0 +1,1 @@
+{  "name": "Charm-weaver",  "level": 1,  "slots": [    "calling"  ],  "types": [    "arcane"  ],  "text": "You gain the Charm ability:\nCost: 1 AP, 1 mana.\nMake an Active Presence check against an enemy character within range. If you succeed and your result is greater than or equal to that character's remaining HP, you gain temporary control of that character.\n"}

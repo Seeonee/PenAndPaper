@@ -1,0 +1,1 @@
+{  "name": "Devil's Offer",  "level": 1,  "slots": [    "ability"  ],  "types": [    "divine",    "arcane",    "fae"  ],  "text": "Cost: 1 AP.\nAn enemy character within range gains the following temporary effect: Whenever that character moves 1 space, you regain 1 mana.\n\nIncrease your devotion to the fae god by 1.\n"}

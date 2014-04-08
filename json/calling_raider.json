@@ -1,0 +1,1 @@
+{  "name": "Raider",  "level": 1,  "slots": [    "calling"  ],  "types": [    "natural",    "martial"  ],  "text": "When you move near an enemy character that you weren't near when you began the move, your attacks against that character temporarily gain piercing 1.\n"}

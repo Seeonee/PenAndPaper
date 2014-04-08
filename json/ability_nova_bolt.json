@@ -1,0 +1,1 @@
+{  "name": "Nova Bolt",  "level": 2,  "slots": [    "ability"  ],  "types": [    "arcane",    "elemental",    "spell",    "attack",    "piercing"  ],  "text": "Cost: 2 AP, 2 mana.\nMake a 6d6 piercing elemental attack against a character within range.\n\nIncrease&nbsp;the size of your mana pool by 2.\n"}

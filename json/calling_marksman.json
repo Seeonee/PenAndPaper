@@ -1,0 +1,1 @@
+{  "name": "Marksman",  "level": 1,  "slots": [    "calling"  ],  "types": [    "martial",    "weapon",    "two_handed_ranged_weapon"  ],  "text": "You gain the Snipe ability:\nCost: 5 AP.\nMake a ranged weapon attack against a character within range. Instead of rolling for the attack, score each die once and finish the attack. This can trigger rollover bonuses.\n"}

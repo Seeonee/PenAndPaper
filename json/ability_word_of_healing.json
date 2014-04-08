@@ -1,0 +1,1 @@
+{  "name": "Word Of Healing",  "level": 1,  "slots": [    "ability"  ],  "types": [    "divine",    "healing"  ],  "text": "Cost: 3 AP.\nYou or one nearby character regain an amount of HP equal to your devotion to your chosen deity.\n\nIncrease your devotion to your chosen deity by 1.\n"}

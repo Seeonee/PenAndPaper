@@ -1,1 +1,1 @@
-{  "name": "Fresh Scars",  "level": 1,  "slots": [    "curse"  ],  "types": [    "martial"  ],  "text": "When you gain wounds after a battle, you gain 1 additional wound."}
+{  "name": "Fresh Scars",  "level": 1,  "slots": [    "curse"  ],  "types": [    "natural"  ],  "text": "When you gain wounds after a battle, you gain 1 additional wound."}

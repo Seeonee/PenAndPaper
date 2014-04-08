@@ -1,1 +1,1 @@
-{  "name": "Arrowcatch",  "level": 1,  "slots": [    "gift"  ],  "types": [    "martial",    "weapon",    "unarmed",    "gauntlet"  ],  "text": "You gain 1 parry die against ranged weapon attacks for each hand in which you are wielding either a gauntlet or no weapon.\n"}
+{  "name": "Arrowcatch",  "level": 1,  "slots": [    "gift"  ],  "types": [    "martial",    "weapon",    "unarmed",    "gauntlet",    "parry"  ],  "text": "You gain 1 parry die against ranged weapon attacks for each hand in which you are wielding either a gauntlet or no weapon.\n"}

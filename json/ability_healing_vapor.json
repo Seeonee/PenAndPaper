@@ -1,0 +1,1 @@
+{  "name": "Healing Vapor",  "level": 1,  "slots": [    "ability"  ],  "types": [    "divine",    "healing",    "sea"  ],  "text": "Cost: 1 AP.\nYou or a nearby character regain 1 HP.\n\nIncrease your devotion to the sea god by 1.\n"}

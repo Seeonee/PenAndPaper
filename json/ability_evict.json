@@ -1,0 +1,1 @@
+{  "name": "Evict",  "level": 1,  "slots": [    "ability"  ],  "types": [    "arcane",    "spell"  ],  "text": "Cost: 1 AP, 1 mana.\nChoose a nearby enemy character and teleport that character up to 6 spaces.\nYou may perform this action when an enemy ignores your guard.\n\nIncrease&nbsp;the size of your mana pool by 1.\n"}

@@ -1,0 +1,1 @@
+{  "name": "Magic Mortar",  "level": 2,  "slots": [    "ability"  ],  "types": [    "arcane",    "elemental",    "spell",    "attack"  ],  "text": "Cost: 1 AP, 2 mana.\nMake a 2 damage elemental attack against a character within range.\n\nIncrease&nbsp;the size of your mana pool by 2.\n"}

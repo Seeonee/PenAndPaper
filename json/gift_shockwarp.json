@@ -1,0 +1,1 @@
+{  "name": "Shockwarp",  "level": 2,  "slots": [    "gift"  ],  "types": [    "arcane",    "elemental"  ],  "text": "Whenever you would teleport, first roll a die. On a 1, the teleport fails and you remain where you are.&nbsp;Otherwise, you deal 1 elemental damage to all enemies near your destination as you appear.\n"}

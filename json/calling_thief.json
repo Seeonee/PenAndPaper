@@ -1,0 +1,1 @@
+{  "name": "Thief",  "level": 1,  "slots": [    "calling"  ],  "types": [    "natural"  ],  "text": "You gain the Rob Them Blind ability:\nCost: 0 AP, 1 signature.\nChoose a nearby enemy character. If they have hoarded AP, steal it. Otherwise, that character is temporarily exposed and you are temporarily evasive.\n"}

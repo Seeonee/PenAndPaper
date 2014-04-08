@@ -1,0 +1,1 @@
+{  "name": "Sear",  "level": 1,  "slots": [    "ability"  ],  "types": [    "arcane",    "elemental",    "spell",    "attack"  ],  "text": "Cost: 2 AP, 1 mana.\nMake a 5d6 (high-rolling) elemental attack against a character within range. The attack deals 2 additional damage.\n\nIncrease&nbsp;the size of your mana pool by 1.\n"}

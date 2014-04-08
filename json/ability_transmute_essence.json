@@ -1,0 +1,1 @@
+{  "name": "Transmute Essence",  "level": 3,  "slots": [    "ability"  ],  "types": [    "arcane",    "spell",    "healing"  ],  "text": "Cost: 1 AP, 3 mana.\nYou or an allied character within range may spend any amount of AP.&nbsp;That character regains an amount of HP equal to 5 times the amount of AP spent.\n\nIncrease the size of your mana pool by 3.\n"}

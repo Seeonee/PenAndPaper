@@ -1,1 +1,1 @@
-{  "name": "Blink",  "level": 1,  "slots": [    "ability"  ],  "types": [    "arcane",    "spell"  ],  "text": "Cost: 1 AP, 1 mana.\nTeleport up to 5 spaces.\n\nIncrease&nbsp;the size of your mana pool by 1.\n"}
+{  "name": "Blink",  "level": 2,  "slots": [    "ability"  ],  "types": [    "arcane",    "spell"  ],  "text": "Cost: 1 AP, 2 mana.\nTeleport up to 6 spaces.\n\nIncrease&nbsp;the size of your mana pool by 2.\n"}

@@ -1,0 +1,1 @@
+{  "name": "Mana Draught",  "level": 1,  "slots": [    "curse"  ],  "types": [    "arcane",    "spell"  ],  "text": "You have -2 max mana.\n\nPrerequisite: You must have a spell ability equipped.\n"}

@@ -1,0 +1,1 @@
+{  "name": "Barbarian",  "level": 1,  "slots": [    "calling"  ],  "types": [    "natural",    "martial",    "weapon",    "armor",    "natural"  ],  "text": "While wearing no armor, you gain 1 natural armor.\nWhenever you make a two handed weapon attack, you lose 2 health and that attack deals 2 additional damage.\n"}

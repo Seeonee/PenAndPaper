@@ -1,0 +1,1 @@
+{  "name": "Blessed Steel",  "level": 1,  "slots": [    "ability"  ],  "types": [    "divine",    "martial",    "weapon",    "war",    "storm",    "sun"  ],  "text": "Cost: 1 AP.\nYour next weapon attack temporarily has piercing X, where X is your devotion to the war, storm, or sun gods.\n\nIncrease your devotion to the war, storm, or sun gods by 1.\n"}

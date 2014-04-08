@@ -1,0 +1,1 @@
+{  "name": "Alchemist",  "level": 1,  "slots": [    "calling"  ],  "types": [    "arcane",    "healing"  ],  "text": "When your turn starts, you regain an amount of HP equal to the amount of hoarded AP you have.\n"}

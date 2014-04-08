@@ -1,0 +1,1 @@
+{  "name": "Guard Breaker",  "level": 1,  "slots": [    "ability"  ],  "types": [    "martial",    "weapon"  ],  "text": "Cost: 0 AP.\nEach allied character within range may spend hoarded AP to make an attack against an enemy character near you.\nRestriction: You must have made 2 successful weapon attacks against the character this turn.\n"}

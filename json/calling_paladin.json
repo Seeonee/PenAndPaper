@@ -1,1 +1,1 @@
-{  "name": "Paladin",  "level": 1,  "slots": [    "calling"  ],  "types": [    "divine"  ],  "text": "Increase the bonus damage you deal to your sworn enemies by 1.\nYour sworn allies gain bonus natural armor equal to your armor as long as they're near you.\n"}
+{  "name": "Paladin",  "level": 1,  "slots": [    "calling"  ],  "types": [    "divine",    "armor",    "natural"  ],  "text": "Your sworn enemies' attacks deal 1 less damage to you.\nYour sworn allies gain 1 bonus natural armor as long as you're guarding them.\n"}

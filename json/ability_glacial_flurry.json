@@ -1,0 +1,1 @@
+{  "name": "Glacial Flurry",  "level": 2,  "slots": [    "ability"  ],  "types": [    "arcane",    "elemental",    "spell",    "attack",    "armor"  ],  "text": "Cost: 2 AP, 2 mana.\nMake a 6d6 elemental attack against a nearby enemy character. If the attack succeeds, you gain a bonus 2 natural armor and 2 elemental armor.\n\nIncrease&nbsp;the size of your mana pool by 2.\n"}

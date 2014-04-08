@@ -1,0 +1,1 @@
+{  "name": "Blood Poison",  "level": 1,  "slots": [    "curse"  ],  "types": [    "healing"  ],  "text": "You cannot regain HP during battle.\n"}

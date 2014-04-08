@@ -1,0 +1,1 @@
+{  "name": "Feedback Hex",  "level": 1,  "slots": [    "curse"  ],  "types": [    "arcane",    "weapon",    "elemental"  ],  "text": "Whenever you deal damage to one or more enemy characters with a weapon attack, you deal yourself 3 elemental damage.\n\nPrerequisite: You must have a weapon equipped.\n"}

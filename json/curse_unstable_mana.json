@@ -1,0 +1,1 @@
+{  "name": "Unstable Mana",  "level": 1,  "slots": [    "curse"  ],  "types": [    "arcane",    "spell"  ],  "text": "Your spells cost 1 additional mana to cast.\n\nPrerequisite: You must have a spell ability equipped.\n"}

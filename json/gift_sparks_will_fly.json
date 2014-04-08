@@ -1,0 +1,1 @@
+{  "name": "Sparks Will Fly",  "level": 2,  "slots": [    "gift"  ],  "types": [    "martial",    "elemental",    "parry"  ],  "text": "Whenever you parry an enemy character's attack, for each 1 damage you parry, deal 1 elemental damage to every character near that enemy.\n"}

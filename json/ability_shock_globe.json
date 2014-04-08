@@ -1,0 +1,1 @@
+{  "name": "Shock Globe",  "level": 3,  "slots": [    "ability"  ],  "types": [    "divine",    "area",    "attack",    "elemental",    "storm"  ],  "text": "Cost: 1 AP.\nMake an area attack against yourself and each character near you. The attack deals 3 elemental damage. You lose any AP you have remaining.\n\nIncrease your devotion to the storm god by 3.\n"}

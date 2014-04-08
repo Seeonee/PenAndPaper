@@ -1,0 +1,1 @@
+{  "name": "Water Lash",  "level": 3,  "slots": [    "ability"  ],  "types": [    "arcane",    "spell",    "elemental",    "attack"  ],  "text": "Cost: 2 AP, 3 mana.\nMake a 7d6 elemental attack against a character&nbsp;within range. If the attack succeeds, pull the character up to 4 spaces towards you.\n\nIncrease&nbsp;the size of your mana pool by 3.\n"}

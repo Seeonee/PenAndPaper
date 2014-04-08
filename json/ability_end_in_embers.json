@@ -1,0 +1,1 @@
+{  "name": "End In Embers",  "level": 2,  "slots": [    "ability"  ],  "types": [    "divine",    "elemental",    "attack",    "sun"  ],  "text": "Cost: 3 AP.\nMake a 2 damage elemental attack against a character within range. If this defeats the character, restore your HP to maximum.\n\nIncrease your devotion to the sun god by 2.\n"}

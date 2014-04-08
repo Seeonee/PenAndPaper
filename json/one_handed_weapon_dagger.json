@@ -1,1 +1,1 @@
-{  "name": "Dagger",  "level": 1,  "slots": [    "one_handed_weapon"  ],  "types": [    "martial",    "weapon",    "dagger"  ],  "text": "Attack dice: 5d6 (high-rolling).\nDaggers can be used to deflect an enemy's attack. You gain 1 parry die against melee attacks made against you."}
+{  "name": "Dagger",  "level": 1,  "slots": [    "one_handed_weapon"  ],  "types": [    "martial",    "weapon",    "dagger",    "parry"  ],  "text": "Attack dice: 5d6 (high-rolling).\nDaggers can be used to deflect an enemy's attack. You gain 1 parry die against melee attacks made against you."}

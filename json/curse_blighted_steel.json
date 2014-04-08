@@ -1,0 +1,1 @@
+{  "name": "Blighted Steel",  "level": 1,  "slots": [    "curse"  ],  "types": [    "martial",    "arcane"  ],  "text": "Your weapon attacks have a -1 die penalty.\n\nPrerequisite: You must have a weapon equipped.\n"}

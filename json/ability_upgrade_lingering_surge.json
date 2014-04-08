@@ -1,0 +1,1 @@
+{  "name": "Lingering Surge",  "level": 2,  "slots": [    "ability_upgrade"  ],  "types": [    "arcane",    "spell",    "elemental"  ],  "text": "Whenever you perform the upgraded ability, you gain the following bonus: When a nearby enemy character damages you, you deal that character 3 elemental damage.\nPrerequisite: The upgraded ability must be a spell with a mana cost.\n"}

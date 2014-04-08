@@ -1,0 +1,1 @@
+{  "name": "Whirlwind Strike",  "level": 1,  "slots": [    "ability"  ],  "types": [    "martial",    "weapon",    "area",    "attack",    "two_handed_weapon"  ],  "text": "Cost: 3 AP.\nMake a two handed weapon attack as an area attack against all characters near you.\n"}

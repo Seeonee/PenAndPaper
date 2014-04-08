@@ -1,0 +1,1 @@
+{  "name": "Explorer",  "level": 1,  "slots": [    "calling"  ],  "types": [    "natural"  ],  "text": "Whenever you move and end up at least 5 spaces away from where you started, you regain 1 HP and one allied character you can see may move 1 space towards you.\n"}

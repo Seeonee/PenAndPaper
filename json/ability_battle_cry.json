@@ -1,1 +1,1 @@
-{  "name": "Battle Cry",  "level": 1,  "slots": [    "ability"  ],  "types": [    "martial"  ],  "text": "Cost: 1 AP.\nYou and each ally within earshot gain a +1 damage bonus to your next weapon attacks.\n"}
+{  "name": "Battle Cry",  "level": 1,  "slots": [    "ability"  ],  "types": [    "martial"  ],  "text": "Cost: 2 AP.\nYou and each ally within range gain a +1 damage bonus to your next weapon attacks.\n"}

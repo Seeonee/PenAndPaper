@@ -1,0 +1,1 @@
+{  "name": "Rogue",  "level": 1,  "slots": [    "calling"  ],  "types": [    "martial",    "weapon",    "piercing"  ],  "text": "Whenever you make a successful main hand weapon attack with a level 1 weapon against an enemy character, your offhand weapon attacks with level 1 weapons against that character are temporarily piercing.\n"}

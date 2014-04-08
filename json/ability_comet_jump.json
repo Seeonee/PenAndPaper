@@ -1,0 +1,1 @@
+{  "name": "Comet Jump",  "level": 1,  "slots": [    "ability"  ],  "types": [    "martial",    "speed",    "weapon",    "area",    "attack",    "signature"  ],  "text": "Cost: 2 AP.\nJump 6 spaces. When you land, you may spend 1 signature. If you do, make a weapon attack as an area attack against all characters near you.\n"}

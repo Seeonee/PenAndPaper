@@ -1,0 +1,1 @@
+{  "name": "Spirit-walker",  "level": 1,  "slots": [    "calling"  ],  "types": [    "arcane"  ],  "text": "You gain the Spirit Walk ability:\nCost: 1 AP, 1 mana.\nSummon a temporary projection which has 1 max HP and 6 speed. The projection may immediately move.\n\nYou may perform actions as though you were in your projections' locations instead of your own.\n"}

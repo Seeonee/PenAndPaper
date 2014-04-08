@@ -1,0 +1,1 @@
+{  "name": "Shock Orb",  "level": 2,  "slots": [    "ability"  ],  "types": [    "divine",    "area",    "attack",    "elemental",    "storm"  ],  "text": "Cost: 1 AP.\nMake an area attack against&nbsp;yourself and&nbsp;each character near you. The attack deals 2 elemental damage. You lose any AP you have remaining.\n\nIncrease your devotion to the storm god by 2.\n"}

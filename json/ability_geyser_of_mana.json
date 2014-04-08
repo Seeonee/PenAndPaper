@@ -1,0 +1,1 @@
+{  "name": "Geyser Of Mana",  "level": 1,  "slots": [    "ability"  ],  "types": [    "arcane",    "spell",    "signature"  ],  "text": "Cost: 1 AP, 1 signature.\nRestore your mana pool to maximum.\n\nIncrease the size of your mana pool by 1.\n"}
