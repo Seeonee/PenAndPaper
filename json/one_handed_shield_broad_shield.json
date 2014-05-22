@@ -1,0 +1,1 @@
+{  "name": "Broad Shield",  "level": 2,  "slots": [    "one_handed_shield"  ],  "types": [    "martial",    "shield",    "armor",    "natural"  ],  "text": "Broad shields provide protection for multiple combatants simultaneously.\n\nWhile this shield is raised, you and all nearby allied characters you are guarding gain +1 natural armor.\n"}

@@ -15,7 +15,7 @@
         "types": "divine,aura,war"
     }, 
     "ability_aura_of_brilliance.json": {
-        "level": 1, 
+        "level": 2, 
         "slots": "ability", 
         "types": "divine,aura,wisdom,fae"
     }, 
@@ -35,7 +35,7 @@
         "types": "divine,aura,spell,wise,fae,death"
     }, 
     "ability_aura_of_respite.json": {
-        "level": 1, 
+        "level": 2, 
         "slots": "ability", 
         "types": "divine,aura,healing,sun,storm,sea"
     }, 
@@ -152,17 +152,17 @@
     "ability_end_in_ashes.json": {
         "level": 1, 
         "slots": "ability", 
-        "types": "divine,elemental,attack,sun"
+        "types": "divine,elemental,attack,sun,healing"
     }, 
     "ability_end_in_embers.json": {
         "level": 2, 
         "slots": "ability", 
-        "types": "divine,elemental,attack,sun"
+        "types": "divine,elemental,attack,sun,healing"
     }, 
     "ability_end_in_fire.json": {
         "level": 3, 
         "slots": "ability", 
-        "types": "divine,elemental,attack,sun"
+        "types": "divine,elemental,attack,sun,healing"
     }, 
     "ability_evict.json": {
         "level": 1, 
@@ -584,11 +584,6 @@
         "slots": "ability", 
         "types": "divine,aura,elemental,armor,sea,storm,sun"
     }, 
-    "ability_stroll_through_time.json": {
-        "level": 2, 
-        "slots": "ability", 
-        "types": "divine,wise,speed"
-    }, 
     "ability_sunburst_armada.json": {
         "level": 3, 
         "slots": "ability", 
@@ -769,6 +764,11 @@
         "slots": "ability", 
         "types": "arcane,elemental,spell,area,attack"
     }, 
+    "ability_walk_the_aeons.json": {
+        "level": 2, 
+        "slots": "ability", 
+        "types": "divine,wise,speed"
+    }, 
     "ability_warsteel_aura.json": {
         "level": 2, 
         "slots": "ability", 
@@ -812,22 +812,47 @@
     "armor_chainmail_armor.json": {
         "level": 2, 
         "slots": "armor", 
-        "types": "armor,mail"
+        "types": "armor,mail,natural,speed"
+    }, 
+    "armor_cloth_armor.json": {
+        "level": 1, 
+        "slots": "armor", 
+        "types": "armor,cloth,natural,speed"
     }, 
     "armor_flourishing_cape.json": {
         "level": 1, 
         "slots": "armor", 
         "types": "martial,armor,dagger,sword,parry"
     }, 
+    "armor_hide_armor.json": {
+        "level": 1, 
+        "slots": "armor", 
+        "types": "armor,hide,natural,speed"
+    }, 
     "armor_leather_armor.json": {
         "level": 1, 
         "slots": "armor", 
-        "types": "armor,leather"
+        "types": "armor,leather,natural,speed"
     }, 
     "armor_platemail_armor.json": {
         "level": 3, 
         "slots": "armor", 
-        "types": "armor,plate"
+        "types": "armor,plate,natural,speed"
+    }, 
+    "armor_sacred_raiment.json": {
+        "level": 1, 
+        "slots": "armor", 
+        "types": "armor,divine,cloth,spiritual"
+    }, 
+    "armor_scale_armor.json": {
+        "level": 2, 
+        "slots": "armor", 
+        "types": "armor,scale,natural,speed"
+    }, 
+    "armor_snowshade_gown.json": {
+        "level": 1, 
+        "slots": "armor", 
+        "types": "armor,arcane,cloth,elemental"
     }, 
     "armor_upgrade_crystal_mantle.json": {
         "level": 1, 
@@ -1353,6 +1378,46 @@
         "level": 1, 
         "slots": "heritage", 
         "types": ""
+    }, 
+    "one_handed_shield_broad_shield.json": {
+        "level": 2, 
+        "slots": "one_handed_shield", 
+        "types": "martial,shield,armor,natural"
+    }, 
+    "one_handed_shield_glimmer_shield.json": {
+        "level": 1, 
+        "slots": "one_handed_shield", 
+        "types": "martial,arcane,shield,armor,elemental"
+    }, 
+    "one_handed_shield_iron_shield.json": {
+        "level": 2, 
+        "slots": "one_handed_shield", 
+        "types": "martial,shield,armor,natural"
+    }, 
+    "one_handed_shield_thirdeye_shield.json": {
+        "level": 1, 
+        "slots": "one_handed_shield", 
+        "types": "martial,arcane,shield,armor,spiritual"
+    }, 
+    "one_handed_shield_tower_shield.json": {
+        "level": 2, 
+        "slots": "one_handed_shield", 
+        "types": "martial,shield,armor,natural,speed"
+    }, 
+    "one_handed_shield_upgrade_shield_barbs.json": {
+        "level": 1, 
+        "slots": "one_handed_shield_upgrade", 
+        "types": "martial,weapon,shield"
+    }, 
+    "one_handed_shield_upgrade_shield_spikes.json": {
+        "level": 2, 
+        "slots": "one_handed_shield_upgrade", 
+        "types": "martial,weapon,shield"
+    }, 
+    "one_handed_shield_wooden_shield.json": {
+        "level": 1, 
+        "slots": "one_handed_shield", 
+        "types": "martial,shield,armor,natural"
     }, 
     "one_handed_weapon_axe.json": {
         "level": 2, 

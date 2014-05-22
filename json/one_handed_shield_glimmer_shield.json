@@ -1,0 +1,1 @@
+{  "name": "Glimmer Shield",  "level": 1,  "slots": [    "one_handed_shield"  ],  "types": [    "martial",    "arcane",    "shield",    "armor",    "elemental"  ],  "text": "Glimmer shields are used to turn away wizards' spells.\n\nWhile this shield is raised, you gain +1 elemental armor.\n"}

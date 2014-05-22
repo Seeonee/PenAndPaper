@@ -1,0 +1,1 @@
+{  "name": "Shield Spikes",  "level": 2,  "slots": [    "one_handed_shield_upgrade"  ],  "types": [    "martial",    "weapon",    "shield"  ],  "text": "When an enemy character makes a successful attack against you while you have the upgraded shield raised, you deal 4 natural damage to that character."}

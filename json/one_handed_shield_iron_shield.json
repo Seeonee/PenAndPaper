@@ -1,0 +1,1 @@
+{  "name": "Iron Shield",  "level": 2,  "slots": [    "one_handed_shield"  ],  "types": [    "martial",    "shield",    "armor",    "natural"  ],  "text": "Iron shields provide medium protection.\n\nWhile this shield is raised, you gain +2 natural armor.\n"}

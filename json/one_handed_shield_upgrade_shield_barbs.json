@@ -1,0 +1,1 @@
+{  "name": "Shield Barbs",  "level": 1,  "slots": [    "one_handed_shield_upgrade"  ],  "types": [    "martial",    "weapon",    "shield"  ],  "text": "When an enemy character makes a successful attack against you while you have the upgraded shield raised, you deal 2 natural damage to that character."}

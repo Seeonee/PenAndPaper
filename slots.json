@@ -113,10 +113,18 @@
             "1": {
                 "cost": 1,
                 "locked": 0
+            },
+            "2": {
+                "cost": 1,
+                "locked": 0
             }
         },
         {
             "1": {
+                "cost": 1,
+                "locked": 0
+            },
+            "2": {
                 "cost": 1,
                 "locked": 0
             }

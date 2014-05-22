@@ -1,1 +1,1 @@
-{  "name": "Platemail Armor",  "level": 3,  "slots": [    "armor"  ],  "types": [    "armor",    "plate"  ],  "text": "Natural Armor: +3.\nSpeed: -3.\n"}
+{  "name": "Platemail Armor",  "level": 3,  "slots": [    "armor"  ],  "types": [    "armor",    "plate",    "natural",    "speed"  ],  "text": "You gain +3 natural armor and -3 speed.\n"}

@@ -1,0 +1,1 @@
+{  "name": "Wooden Shield",  "level": 1,  "slots": [    "one_handed_shield"  ],  "types": [    "martial",    "shield",    "armor",    "natural"  ],  "text": "Wooden shields provide light protection.\n\nWhile this shield is raised, you gain +1 natural armor.\n"}
